@@ -64,6 +64,7 @@ python3 scripts/verify_catalog.py
 catalog/skills.json              # canonical 100-record catalog
 packs/<pack>/README.md           # readable 10-skill pack pages
 docs/INSTALL.md                  # direct-install and manual fallback
+docs/PUBLISH.md                  # optional GitHub Pages publication
 docs/VERIFICATION.md             # audit methodology and status definitions
 docs/audits/original-50-audit.md # original selections reviewed and corrected
 browser/                         # standalone React/Vite interactive catalog source
