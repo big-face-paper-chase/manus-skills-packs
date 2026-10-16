@@ -1,0 +1,2958 @@
+{
+  "schema_version": "1.0.0",
+  "generated_on": "2026-10-16",
+  "packs": [
+    {
+      "id": "design-ui",
+      "name": "Design & UI",
+      "description": "Distinctive interface, visual-art, presentation, image, and mobile-UI production."
+    },
+    {
+      "id": "developer-coding",
+      "name": "Developer Coding",
+      "description": "Implementation, testing, debugging, review, frontend architecture, and API integration workflows."
+    },
+    {
+      "id": "productivity-workflow",
+      "name": "Productivity & Workflow",
+      "description": "Planning, collaboration, communication, file organization, and agent-workflow practices."
+    },
+    {
+      "id": "research-data",
+      "name": "Research & Data",
+      "description": "Research, document, spreadsheet, PDF, media, marketing, and content-production tasks."
+    },
+    {
+      "id": "security-devops",
+      "name": "Security & DevOps",
+      "description": "Deployment, workspace safety, verification, skill construction, and external-tool integrations."
+    },
+    {
+      "id": "agent-craft-automation",
+      "name": "Agent Craft & Automation",
+      "description": "Agent-skill creation, workflow mining, lab-system integration, robotic automation, and reproducible orchestration."
+    },
+    {
+      "id": "visual-creative-lab",
+      "name": "Visual Creative Lab",
+      "description": "Scientific and creative visual assets, posters, slides, imagery, CAD, and visual analysis workflows."
+    },
+    {
+      "id": "content-audience-growth",
+      "name": "Content, Audience & Growth",
+      "description": "Evidence-led research, citations, writing, review, grants, market intelligence, and technical documentation."
+    },
+    {
+      "id": "data-documents-decisions",
+      "name": "Data, Documents & Decisions",
+      "description": "Exploratory analysis, statistics, charts, graph and time-series methods, public data, and structured decision support."
+    },
+    {
+      "id": "experimental-delightfully-weird",
+      "name": "Experimental & Delightfully Weird",
+      "description": "Specialized scientific-method, simulation, genomics, quantum, time-series, and frontier experimental workflows."
+    }
+  ],
+  "skills": [
+    {
+      "id": "frontend-design",
+      "name": "Frontend Design",
+      "pack": "design-ui",
+      "kind": "original",
+      "source_repository": "anthropics/skills",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/frontend-design",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fanthropics%2Fskills%2Ftree%2Fmain%2Fskills%2Ffrontend-design",
+      "summary": "Design and implement distinctive, subject-specific frontend interfaces: establish an intentional color, typography, and layout system; critique it against the brief; then build responsive UI without templated visual defaults. Covers clear content, restrained motion, visible focus, reduced-motion support, and visual accessibility.",
+      "use_when": "Creating or reshaping a frontend UI that needs a distinctive visual direction, especially when choosing typography, palette, layout, copy, motion, responsive behavior, and accessibility details from a product brief.",
+      "tags": [
+        "frontend",
+        "ui-design",
+        "visual-design",
+        "typography",
+        "layout",
+        "responsive-design",
+        "motion",
+        "accessibility",
+        "anti-generic"
+      ],
+      "requirements": "No external dependency or credential is specified. A product/design brief or identified subject matter is needed; implementation requires a frontend coding environment.",
+      "verification": {
+        "status": "verified",
+        "description_accuracy": "needs-update",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f (2026-09-03)",
+        "audited_on": "2026-10-16",
+        "note": "Live SKILL.md supports design/implementation guidance; the former description omitted process, responsiveness, motion, and accessibility.",
+        "skill_md_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/frontend-design/SKILL.md"
+      }
+    },
+    {
+      "id": "algorithmic-art",
+      "name": "Algorithmic Art",
+      "pack": "design-ui",
+      "kind": "original",
+      "source_repository": "anthropics/skills",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/algorithmic-art",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fanthropics%2Fskills%2Ftree%2Fmain%2Fskills%2Falgorithmic-art",
+      "summary": "Creates original p5.js algorithmic art through seeded randomness and mathematical or emergent systems. Produces an algorithmic-philosophy document and a browser HTML artifact with interactive seed/parameter exploration and PNG download.",
+      "use_when": "A user requests reproducible, browser-runnable generative art such as flow fields, particle systems, noise-driven forms, or emergent behavior; do not copy an existing artist\u2019s work.",
+      "tags": [
+        "algorithmic-art",
+        "generative-art",
+        "p5.js",
+        "flow-fields",
+        "particle-systems",
+        "seeded-randomness",
+        "interactive-visualization"
+      ],
+      "requirements": "Requires a browser and p5.js 1.7.0 from its template CDN or a local copy; upstream requires its viewer.html and generator_template.js assets. No credentials.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "accurate",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "b9e19e6f44773509fbdd7001d77ff41a49a486c1 (2026-04-20)",
+        "audited_on": "2026-10-16",
+        "note": "Frontmatter matches; browser/template assets make execution conditional.",
+        "skill_md_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/algorithmic-art/SKILL.md"
+      }
+    },
+    {
+      "id": "theme-factory",
+      "name": "Theme Factory",
+      "pack": "design-ui",
+      "kind": "original",
+      "source_repository": "anthropics/skills",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/theme-factory",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fanthropics%2Fskills%2Ftree%2Fmain%2Fskills%2Ftheme-factory",
+      "summary": "Applies one of ten curated color-and-font themes to slide decks, documents, reports, and HTML landing pages, or creates a custom theme from design inputs. It supports review before application and contrast/readability checking.",
+      "use_when": "An artifact needs consistent visual styling: review theme-showcase.pdf, obtain an explicit theme choice, read its themes/ specification, then apply it; use the custom-theme flow when no preset fits.",
+      "tags": [
+        "themes",
+        "visual-design",
+        "slides",
+        "documents",
+        "reports",
+        "html",
+        "color-palettes",
+        "typography"
+      ],
+      "requirements": "No credentials or external service. Requires the skill directory, themes/ files, and theme-showcase.pdf; documented workflow requires explicit user confirmation before applying a selected theme.",
+      "verification": {
+        "status": "verified",
+        "description_accuracy": "accurate",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "b9e19e6f44773509fbdd7001d77ff41a49a486c1 (2026-04-20)",
+        "audited_on": "2026-10-16",
+        "note": "Live source explicitly covers 10 themes, slides/docs/reports/HTML, and custom themes.",
+        "skill_md_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/theme-factory/SKILL.md"
+      }
+    },
+    {
+      "id": "canvas-design",
+      "name": "Canvas Design",
+      "pack": "design-ui",
+      "kind": "original",
+      "source_repository": "anthropics/skills",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/canvas-design",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fanthropics%2Fskills%2Ftree%2Fmain%2Fskills%2Fcanvas-design",
+      "summary": "Creates original, design-forward single-page PNG or PDF visual art guided by a written visual philosophy and subtle conceptual reference. Uses crafted composition, form, color, pattern, sparse typography, and systematic detail; supports requested multi-page extensions.",
+      "use_when": "Creating an original poster, artwork, static visual design, or art object that needs deliberate composition and minimal text rather than a text-heavy document or template.",
+      "tags": [
+        "visual-art",
+        "poster-design",
+        "static-design",
+        "png",
+        "pdf",
+        "design-philosophy",
+        "typography",
+        "composition"
+      ],
+      "requirements": "No credential or external service. Requires a philosophy Markdown and final PNG/PDF unless specified otherwise; canvas-fonts/ is included and fonts may be downloaded if needed.",
+      "verification": {
+        "status": "verified",
+        "description_accuracy": "needs-update",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "ef740771ac901e03fbca3ce4e1c453a96010f30a (2025-12-01)",
+        "audited_on": "2026-10-16",
+        "note": "Former wording omitted the required philosophy/reference step and sparse, visual-first guidance.",
+        "skill_md_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/canvas-design/SKILL.md"
+      }
+    },
+    {
+      "id": "brand-guidelines",
+      "name": "Brand Guidelines",
+      "pack": "design-ui",
+      "kind": "original",
+      "source_repository": "anthropics/skills",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/brand-guidelines",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fanthropics%2Fskills%2Ftree%2Fmain%2Fskills%2Fbrand-guidelines",
+      "summary": "Applies Anthropic\u2019s official visual identity: brand colors, Poppins headings (Arial fallback), Lora body text (Georgia fallback), hierarchy-aware styling, and orange/blue/green accents. References RGB styling with python-pptx.",
+      "use_when": "Creating or formatting an artifact that should follow Anthropic official colors, typography, visual formatting, or presentation-style design standards.",
+      "tags": [
+        "branding",
+        "visual-identity",
+        "brand-colors",
+        "typography",
+        "visual-formatting",
+        "anthropic",
+        "python-pptx"
+      ],
+      "requirements": "No mandatory external dependency. Poppins/Lora are preferred; Arial/Georgia are documented fallbacks. Technical examples reference python-pptx.",
+      "verification": {
+        "status": "verified",
+        "description_accuracy": "needs-update",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "ef740771ac901e03fbca3ce4e1c453a96010f30a (2025-12-01)",
+        "audited_on": "2026-10-16",
+        "note": "Source is Anthropic-specific, not a generic arbitrary-company brand-guidelines system.",
+        "skill_md_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/brand-guidelines/SKILL.md"
+      }
+    },
+    {
+      "id": "web-artifacts-builder",
+      "name": "Web Artifacts Builder",
+      "pack": "design-ui",
+      "kind": "original",
+      "source_repository": "anthropics/skills",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/web-artifacts-builder",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fanthropics%2Fskills%2Ftree%2Fmain%2Fskills%2Fweb-artifacts-builder",
+      "summary": "Builds complex multi-component claude.ai HTML artifacts with React 18, TypeScript, Vite, Tailwind CSS, shadcn/ui, and Radix UI; provided scripts initialize a project and bundle dependencies into one self-contained HTML file.",
+      "use_when": "Building a complex claude.ai HTML artifact needing React state, routing, or shadcn/ui components; not for a simple single-file HTML/JSX artifact.",
+      "tags": [
+        "html-artifacts",
+        "react",
+        "typescript",
+        "vite",
+        "tailwind-css",
+        "shadcn-ui",
+        "radix-ui",
+        "parcel",
+        "claude-ai"
+      ],
+      "requirements": "Node.js 18+, pnpm, network/package installation, scripts/init-artifact.sh and bundle-artifact.sh, supplied shadcn-components.tar.gz, and a root index.html.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "needs-update",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "ef740771ac901e03fbca3ce4e1c453a96010f30a (2025-12-01)",
+        "audited_on": "2026-10-16",
+        "note": "Former wording omitted claude.ai target and initialization/bundling workflow.",
+        "skill_md_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/web-artifacts-builder/SKILL.md"
+      }
+    },
+    {
+      "id": "image-enhancer",
+      "name": "Image Enhancer",
+      "pack": "design-ui",
+      "kind": "original",
+      "source_repository": "ComposioHQ/awesome-claude-skills",
+      "source_url": "https://github.com/ComposioHQ/awesome-claude-skills/tree/master/image-enhancer",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FComposioHQ%2Fawesome-claude-skills%2Ftree%2Fmaster%2Fimage-enhancer",
+      "summary": "Improves screenshots and other digital images through upscaling, sharpening, compression-artifact/noise reduction, and output optimization for web, print, social, documentation, and presentations. Supports batch processing while preserving originals.",
+      "use_when": "Enhancing, upscaling, sharpening, clarifying, cleaning up, or batch-processing screenshots and digital images for documentation, presentations, reports, social, web, or print.",
+      "tags": [
+        "image-enhancement",
+        "upscaling",
+        "sharpening",
+        "screenshots",
+        "compression-artifact-reduction",
+        "batch-processing"
+      ],
+      "requirements": "No required dependency, credential, or execution environment is documented; instructions are natural-language workflows.",
+      "verification": {
+        "status": "verified",
+        "description_accuracy": "accurate",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "044d48b594f060c164f3b20fac9ea01374721bca (2025-10-17)",
+        "audited_on": "2026-10-16",
+        "note": "Live source confirms core functions and broader output use cases.",
+        "skill_md_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/image-enhancer/SKILL.md"
+      }
+    },
+    {
+      "id": "slack-gif-creator",
+      "name": "Slack GIF Creator",
+      "pack": "design-ui",
+      "kind": "original",
+      "source_repository": "anthropics/skills",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/slack-gif-creator",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fanthropics%2Fskills%2Ftree%2Fmain%2Fskills%2Fslack-gif-creator",
+      "summary": "Creates polished Slack-optimized animated GIFs with Pillow-based frame drawing, Slack dimensions/frame-rate/color/duration guidance, GIFBuilder, validators, easing, and frame-composition helpers.",
+      "use_when": "Creating, animating, optimizing, or validating a GIF for Slack, including emoji or message GIFs and animations based on uploaded images.",
+      "tags": [
+        "slack",
+        "gif",
+        "animation",
+        "pillow",
+        "image-processing",
+        "validation",
+        "emoji"
+      ],
+      "requirements": "Python with Pillow, imageio, and numpy; use bundled core utilities. No credential is documented.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "accurate",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "b9e19e6f44773509fbdd7001d77ff41a49a486c1 (2026-04-20)",
+        "audited_on": "2026-10-16",
+        "note": "Live source and requirements.txt confirm documented generators and validators.",
+        "skill_md_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/slack-gif-creator/SKILL.md"
+      }
+    },
+    {
+      "id": "react-native-skills",
+      "name": "React Native Skills",
+      "pack": "design-ui",
+      "kind": "original",
+      "source_repository": "vercel-labs/agent-skills",
+      "source_url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/react-native-skills",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fvercel-labs%2Fagent-skills%2Ftree%2Fmain%2Fskills%2Freact-native-skills",
+      "summary": "React Native and Expo best practices for performant mobile apps: lists/scrolling, animations, navigation, UI patterns, state/rendering, monorepos, native dependencies, fonts, and platform configuration.",
+      "use_when": "Building or reviewing React Native/Expo apps; optimizing lists, scrolling, images, or rendering; implementing Reanimated/native navigation; configuring fonts/native modules; or organizing monorepos.",
+      "tags": [
+        "react-native",
+        "expo",
+        "mobile-development",
+        "performance",
+        "animations",
+        "navigation",
+        "native-modules",
+        "monorepo"
+      ],
+      "requirements": "No credentials or special runtime specified. Detailed guidance lives in rule files and compiled AGENTS.md.",
+      "verification": {
+        "status": "verified",
+        "description_accuracy": "accurate",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "757ccb42a20478be6b7284088978070358b52d5e (2026-01-27)",
+        "audited_on": "2026-10-16",
+        "note": "Current directory includes SKILL.md, AGENTS.md, metadata, and rules.",
+        "skill_md_url": "https://raw.githubusercontent.com/vercel-labs/agent-skills/main/skills/react-native-skills/SKILL.md"
+      }
+    },
+    {
+      "id": "pptx-presentation-design",
+      "name": "PPTX (Presentation Design)",
+      "pack": "design-ui",
+      "kind": "original",
+      "source_repository": "anthropics/skills",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/pptx",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fanthropics%2Fskills%2Ftree%2Fmain%2Fskills%2Fpptx",
+      "summary": "Creates, edits, reads, validates, and visually reviews .pptx and .potx presentations: pptxgenjs generation, OOXML/template editing, slide duplication/cleanup, notes, charts, thumbnails, conversions, content QA, and visual QA.",
+      "use_when": "Any .pptx or .potx is input/output: create/read/edit decks, templates, layouts, notes, comments, charts, merge/split, validate, or visually inspect rendered slides.",
+      "tags": [
+        "pptx",
+        "powerpoint",
+        "presentations",
+        "slide-decks",
+        "pitch-decks",
+        "templates",
+        "speaker-notes",
+        "pptxgenjs",
+        "ooxml",
+        "visual-qa"
+      ],
+      "requirements": "Node/pptxgenjs; Python markitdown[pptx], Pillow, defusedxml, lxml; LibreOffice/soffice; and Poppler pdftoppm. Some are preinstalled only in intended upstream environments.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "needs-update",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "fa0fa64bdc967915dc8399e803be67759e1e62b8 (2026-07-17)",
+        "audited_on": "2026-10-16",
+        "note": "Former wording omitted extraction, validation, visual QA, chart, conversion, and .potx scope.",
+        "skill_md_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/pptx/SKILL.md"
+      }
+    },
+    {
+      "id": "test-driven-development",
+      "name": "Test-Driven Development",
+      "pack": "developer-coding",
+      "kind": "original",
+      "source_repository": "obra/superpowers",
+      "source_url": "https://github.com/obra/superpowers/tree/main/skills/test-driven-development",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fobra%2Fsuperpowers%2Ftree%2Fmain%2Fskills%2Ftest-driven-development",
+      "summary": "Test-first development: write one minimal failing test, verify the failure, implement the smallest passing change, run the full suite, then refactor with tests green. Applies to features, bug fixes, refactors, and behavior changes.",
+      "use_when": "Before implementation for a feature, bug fix, refactor, or behavior change; use RED-GREEN-REFACTOR and obtain human approval for prototype/generated/config exceptions.",
+      "tags": [
+        "testing",
+        "tdd",
+        "test-first",
+        "red-green-refactor",
+        "software-development"
+      ],
+      "requirements": "A project with runnable tests and ability to inspect and execute them. No credential or service requirement.",
+      "verification": {
+        "status": "verified",
+        "description_accuracy": "accurate",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "5bf4e78011075bcfc0dc295f0724994cd123ee71 (2026-09-19)",
+        "audited_on": "2026-10-16",
+        "note": "Live source documents failure/pass verification, full-suite execution, and limited exceptions.",
+        "skill_md_url": "https://raw.githubusercontent.com/obra/superpowers/main/skills/test-driven-development/SKILL.md"
+      }
+    },
+    {
+      "id": "systematic-debugging",
+      "name": "Systematic Debugging",
+      "pack": "developer-coding",
+      "kind": "original",
+      "source_repository": "obra/superpowers",
+      "source_url": "https://github.com/obra/superpowers/tree/main/skills/systematic-debugging",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fobra%2Fsuperpowers%2Ftree%2Fmain%2Fskills%2Fsystematic-debugging",
+      "summary": "Root-cause-first debugging: reproduce, inspect errors and changes, instrument boundaries, trace data, compare working patterns, test one hypothesis at a time, then minimally fix and verify. Defines stop conditions after repeated failed fixes.",
+      "use_when": "Any technical issue\u2014test, production, behavior, performance, build, or integration failure\u2014especially when cause is unknown, under time pressure, or prior fixes failed.",
+      "tags": [
+        "debugging",
+        "root-cause-analysis",
+        "bug-investigation",
+        "test-failures",
+        "performance",
+        "build-failures",
+        "integrations"
+      ],
+      "requirements": "Ability to inspect errors, reproduce/instrument systems, compare implementations, run focused tests, and verify; no special credential/runtime.",
+      "verification": {
+        "status": "verified",
+        "description_accuracy": "accurate",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "bb92a77741419a4ab5f06e711a283343f1ada0c3 (2026-10-10)",
+        "audited_on": "2026-10-16",
+        "note": "Current four-phase process includes evidence gates and support techniques.",
+        "skill_md_url": "https://raw.githubusercontent.com/obra/superpowers/main/skills/systematic-debugging/SKILL.md"
+      }
+    },
+    {
+      "id": "receiving-code-review",
+      "name": "Receiving Code Review",
+      "pack": "developer-coding",
+      "kind": "original",
+      "source_repository": "obra/superpowers",
+      "source_url": "https://github.com/obra/superpowers/tree/main/skills/receiving-code-review",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fobra%2Fsuperpowers%2Ftree%2Fmain%2Fskills%2Freceiving-code-review",
+      "summary": "Verification-first handling of review feedback: restate each request, check it against code, evaluate correctness/impact, clarify ambiguity, push back with technical reasoning when warranted, implement incrementally, and test regressions.",
+      "use_when": "Before implementing review feedback, especially unclear/questionable suggestions, behavior or architecture conflicts, overbuilt proposals, or multi-item feedback requiring incremental testing.",
+      "tags": [
+        "code-review",
+        "verification",
+        "technical-evaluation",
+        "developer-workflow",
+        "testing",
+        "pushback",
+        "yagni",
+        "github"
+      ],
+      "requirements": "No special runtime. Effective use may need codebase/tests/version context and PR comment identifiers/API access for inline GitHub replies.",
+      "verification": {
+        "status": "verified",
+        "description_accuracy": "accurate",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "3fb75974186ea7fada621d8ab77b3b02169baf57 (2026-07-24)",
+        "audited_on": "2026-10-16",
+        "note": "Source additionally specifies GitHub thread reply handling and staged response patterns.",
+        "skill_md_url": "https://raw.githubusercontent.com/obra/superpowers/main/skills/receiving-code-review/SKILL.md"
+      }
+    },
+    {
+      "id": "requesting-code-review",
+      "name": "Requesting Code Review",
+      "pack": "developer-coding",
+      "kind": "original",
+      "source_repository": "obra/superpowers",
+      "source_url": "https://github.com/obra/superpowers/tree/main/skills/requesting-code-review",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fobra%2Fsuperpowers%2Ftree%2Fmain%2Fskills%2Frequesting-code-review",
+      "summary": "Dispatches a focused code-reviewer with change description, requirements/plan, and base/head Git SHAs; triages by severity and requires Critical/Important findings to be addressed before proceeding.",
+      "use_when": "After each subagent-driven task, after a major feature, or before merging; optionally before refactoring, after complex bug fixes, or when stuck.",
+      "tags": [
+        "code-review",
+        "software-development",
+        "git",
+        "subagents",
+        "quality-assurance"
+      ],
+      "requirements": "Git worktree with meaningful BASE_SHA/HEAD_SHA and an environment able to dispatch a reviewer using code-reviewer.md. No credential stated.",
+      "verification": {
+        "status": "verified",
+        "description_accuracy": "accurate",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "bb92a77741419a4ab5f06e711a283343f1ada0c3 (2026-10-10)",
+        "audited_on": "2026-10-16",
+        "note": "Live source defines mandatory/optional review points and severity follow-up.",
+        "skill_md_url": "https://raw.githubusercontent.com/obra/superpowers/main/skills/requesting-code-review/SKILL.md"
+      }
+    },
+    {
+      "id": "react-best-practices",
+      "name": "React Best Practices",
+      "pack": "developer-coding",
+      "kind": "original",
+      "source_repository": "vercel-labs/agent-skills",
+      "source_url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/react-best-practices",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fvercel-labs%2Fagent-skills%2Ftree%2Fmain%2Fskills%2Freact-best-practices",
+      "summary": "Vercel React/Next.js performance guidance with 70 rules across waterfalls, bundle size, server performance, client fetching, re-rendering, rendering, JavaScript, and advanced patterns.",
+      "use_when": "Writing, reviewing, refactoring, or tuning React components or Next.js pages, especially data fetching, waterfalls, bundle/load time, server work, re-render behavior, or rendering.",
+      "tags": [
+        "react",
+        "next.js",
+        "performance",
+        "data-fetching",
+        "bundle-optimization",
+        "rendering",
+        "rerendering"
+      ],
+      "requirements": "No credential or special runtime required to apply. Repository maintenance uses pnpm build/validate/extract-tests.",
+      "verification": {
+        "status": "verified",
+        "description_accuracy": "accurate",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "805687f34e8c10b420e3d11335a0ca2c3c90d992 (2026-04-14)",
+        "audited_on": "2026-10-16",
+        "note": "Catalog core scope is accurate but source adds eight categorized rulesets.",
+        "skill_md_url": "https://raw.githubusercontent.com/vercel-labs/agent-skills/main/skills/react-best-practices/SKILL.md"
+      }
+    },
+    {
+      "id": "webapp-testing",
+      "name": "WebApp Testing",
+      "pack": "developer-coding",
+      "kind": "original",
+      "source_repository": "anthropics/skills",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/webapp-testing",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fanthropics%2Fskills%2Ftree%2Fmain%2Fskills%2Fwebapp-testing",
+      "summary": "Playwright-based native Python toolkit for local web apps: static/dynamic workflows, server lifecycle with scripts/with_server.py, rendered-DOM reconnaissance, interactions, screenshots, and browser console-log capture.",
+      "use_when": "Testing a local web app: inspect rendered DOM after network idle, find selectors, automate browser actions, verify frontend behavior, capture screenshots/logs, or manage local servers.",
+      "tags": [
+        "webapp-testing",
+        "playwright",
+        "python",
+        "frontend-testing",
+        "browser-automation",
+        "screenshots",
+        "console-logs",
+        "local-development"
+      ],
+      "requirements": "A local app/static HTML, Python, Playwright, Chromium, and runnable server commands/ports for with_server.py. No credential stated.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "needs-update",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "ef740771ac901e03fbca3ce4e1c453a96010f30a (2025-12-01)",
+        "audited_on": "2026-10-16",
+        "note": "Former wording omitted browser logs, DOM reconnaissance, Python scripts, and multi-server helper.",
+        "skill_md_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/webapp-testing/SKILL.md"
+      }
+    },
+    {
+      "id": "developer-growth-analysis",
+      "name": "Developer Growth Analysis",
+      "pack": "developer-coding",
+      "kind": "original",
+      "source_repository": "ComposioHQ/awesome-claude-skills",
+      "source_url": "https://github.com/ComposioHQ/awesome-claude-skills/tree/master/developer-growth-analysis",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FComposioHQ%2Fawesome-claude-skills%2Ftree%2Fmaster%2Fdeveloper-growth-analysis",
+      "summary": "Analyzes recent Claude Code history in ~/.claude/history.jsonl for coding patterns, evidence-based gaps/strengths, and prioritized improvement actions; can use Rube MCP for Hacker News resources and Slack DMs.",
+      "use_when": "A developer asks for a growth or coding-pattern review grounded in recent Claude Code chats, optionally with Hacker News curation and Slack delivery.",
+      "tags": [
+        "developer-growth",
+        "claude-code",
+        "chat-history-analysis",
+        "coding-patterns",
+        "learning-resources",
+        "hacker-news",
+        "slack"
+      ],
+      "requirements": "Local Claude Code history. Rube MCP for Hacker News/Slack; active Slack connection for delivery.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "needs-update",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "3a887c7b8db6366343b4edc3a892f69afd45423f (2025-11-10)",
+        "audited_on": "2026-10-16",
+        "note": "Former wording omitted Claude Code history path and automatic Slack delivery.",
+        "skill_md_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/developer-growth-analysis/SKILL.md"
+      }
+    },
+    {
+      "id": "finishing-a-development-branch",
+      "name": "Finishing a Development Branch",
+      "pack": "developer-coding",
+      "kind": "original",
+      "source_repository": "obra/superpowers",
+      "source_url": "https://github.com/obra/superpowers/tree/main/skills/finishing-a-development-branch",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fobra%2Fsuperpowers%2Ftree%2Fmain%2Fskills%2Ffinishing-a-development-branch",
+      "summary": "Completes a tested branch by detecting repository/worktree state, confirming base branch, offering merge/PR/keep choices, executing the authorized choice, and cleaning up only with provenance-safe authority. Discard requires literal confirmation.",
+      "use_when": "After implementation and full tests pass, when deciding to merge, push/create a PR, keep a branch, or clean up an authorized worktree.",
+      "tags": [
+        "git",
+        "branch-integration",
+        "pull-requests",
+        "worktrees",
+        "cleanup",
+        "release-completion"
+      ],
+      "requirements": "Git repository and runnable full suite. PR needs forge tooling; worktree cleanup depends on state/provenance. Requires typed \u201cdiscard\u201d for destructive cleanup.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "accurate",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797 (2026-08-12)",
+        "audited_on": "2026-10-16",
+        "note": "Live source is applicable only inside a tested Git development context.",
+        "skill_md_url": "https://raw.githubusercontent.com/obra/superpowers/main/skills/finishing-a-development-branch/SKILL.md"
+      }
+    },
+    {
+      "id": "composition-patterns",
+      "name": "Composition Patterns",
+      "pack": "developer-coding",
+      "kind": "original",
+      "source_repository": "vercel-labs/agent-skills",
+      "source_url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/composition-patterns",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fvercel-labs%2Fagent-skills%2Ftree%2Fmain%2Fskills%2Fcomposition-patterns",
+      "summary": "React composition patterns for maintainable component APIs: compound components, context providers, lifted state, explicit variants, and children-based composition, with a React 19-specific section.",
+      "use_when": "Refactoring React components with many boolean props, building component libraries, designing flexible component APIs, or using compound components/context. Apply React 19 guidance only in React 19+.",
+      "tags": [
+        "react",
+        "component-architecture",
+        "compound-components",
+        "context-providers",
+        "state-management",
+        "react-19"
+      ],
+      "requirements": "A React codebase. React 19 API guidance applies only to React 19 or later.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "misleading",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "a5343bd997c4cc4d8bf2ca61021bdc74b4d6c9d5 (2026-01-28)",
+        "audited_on": "2026-10-16",
+        "note": "Former description was too broad; source is specifically React component composition.",
+        "skill_md_url": "https://raw.githubusercontent.com/vercel-labs/agent-skills/main/skills/composition-patterns/SKILL.md"
+      }
+    },
+    {
+      "id": "claude-api",
+      "name": "Claude API",
+      "pack": "developer-coding",
+      "kind": "original",
+      "source_repository": "anthropics/skills",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/claude-api",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fanthropics%2Fskills%2Ftree%2Fmain%2Fskills%2Fclaude-api",
+      "summary": "Reference for Claude applications using official SDKs or requested raw HTTP: model IDs/pricing/parameters, streaming, tool use, MCP, agents, prompt caching, token counting, migration, evals, and cost optimization across major languages.",
+      "use_when": "Before implementing, debugging, migrating, or optimizing an Anthropic Claude integration\u2014SDK setup, model selection, streaming, tools, MCP/agents, caching, token counting, evals, cost, or API behavior.",
+      "tags": [
+        "claude",
+        "anthropic-api",
+        "sdk",
+        "streaming",
+        "tool-use",
+        "mcp",
+        "agents",
+        "prompt-caching",
+        "token-counting",
+        "model-migration",
+        "evals"
+      ],
+      "requirements": "Access to upstream guides and a language/cURL context. Live calls require Anthropic authentication/API key or supported federation.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "needs-update",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "dbd4588f9e1033efb41dad4bef2f7947c8993d44 (2026-10-09)",
+        "audited_on": "2026-10-16",
+        "note": "Former wording materially understated scope.",
+        "skill_md_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/claude-api/SKILL.md"
+      }
+    },
+    {
+      "id": "dispatching-parallel-agents",
+      "name": "Dispatching Parallel Agents",
+      "pack": "productivity-workflow",
+      "kind": "original",
+      "source_repository": "obra/superpowers",
+      "source_url": "https://github.com/obra/superpowers/tree/main/skills/dispatching-parallel-agents",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fobra%2Fsuperpowers%2Ftree%2Fmain%2Fskills%2Fdispatching-parallel-agents",
+      "summary": "Guides delegation of genuinely independent problem domains to isolated agents: assess independence, write focused self-contained prompts, dispatch concurrently, then review, conflict-check, and verify outputs.",
+      "use_when": "Two or more independent tasks can proceed without shared state or sequencing, such as unrelated failures, subsystems, or investigations; avoid where tasks are coupled or agents interfere.",
+      "tags": [
+        "parallel-agents",
+        "delegation",
+        "context-isolation",
+        "independent-tasks",
+        "software-debugging"
+      ],
+      "requirements": "An agent runtime that can dispatch concurrent subagents. No credential or additional software stated.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "needs-update",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "6dbbbda3baeff8407f3dddb0cc9e8a9495a273bc (2026-07-24)",
+        "audited_on": "2026-10-16",
+        "note": "Removed unsupported promise that it \u201cmassively speeds up\u201d broad work.",
+        "skill_md_url": "https://raw.githubusercontent.com/obra/superpowers/main/skills/dispatching-parallel-agents/SKILL.md"
+      }
+    },
+    {
+      "id": "executing-plans",
+      "name": "Executing Plans",
+      "pack": "productivity-workflow",
+      "kind": "original",
+      "source_repository": "obra/superpowers",
+      "source_url": "https://github.com/obra/superpowers/tree/main/skills/executing-plans",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fobra%2Fsuperpowers%2Ftree%2Fmain%2Fskills%2Fexecuting-plans",
+      "summary": "Executes a written implementation plan inline in the current session, task by task, with TDD/verification gates, a progress ledger, continuous execution, and one fresh-context whole-branch review at the end.",
+      "use_when": "A written plan should be executed by the current agent in the current session, especially when inline mode is chosen or subagents are unavailable. Prefer subagent-driven development for per-task implementer/reviewer gates.",
+      "tags": [
+        "implementation-plan",
+        "inline-execution",
+        "tdd",
+        "verification",
+        "progress-ledger",
+        "git-worktree",
+        "code-review"
+      ],
+      "requirements": "Reachable plan, isolated/verified Git worktree, supporting workflow/scripts, and TDD skill. Final review can use a subagent or self-review.",
+      "verification": {
+        "status": "verified",
+        "description_accuracy": "misleading",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "5bf4e78011075bcfc0dc295f0724994cd123ee71 (2026-09-19)",
+        "audited_on": "2026-10-16",
+        "note": "Former wording incorrectly framed it as a separate-session per-task review workflow.",
+        "skill_md_url": "https://raw.githubusercontent.com/obra/superpowers/main/skills/executing-plans/SKILL.md"
+      }
+    },
+    {
+      "id": "writing-plans",
+      "name": "Writing Plans",
+      "pack": "productivity-workflow",
+      "kind": "original",
+      "source_repository": "obra/superpowers",
+      "source_url": "https://github.com/obra/superpowers/tree/main/skills/writing-plans",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fobra%2Fsuperpowers%2Ftree%2Fmain%2Fskills%2Fwriting-plans",
+      "summary": "Creates a detailed, testable implementation plan from a spec before coding: maps files/interfaces, decomposes independently verifiable steps, specifies tests/commands, adds constraints/review checks, then saves under docs/superpowers/plans by default.",
+      "use_when": "A multi-step implementation with a written spec needs file-level architecture, interface mapping, test strategy, edge-case/review checklist, and execution handoff before coding.",
+      "tags": [
+        "planning",
+        "architecture",
+        "spec-driven-development",
+        "testing",
+        "implementation-workflow"
+      ],
+      "requirements": "A spec/requirements and codebase context to identify files/interfaces/tests. No credential; isolated-worktree cases reference using-git-worktrees.",
+      "verification": {
+        "status": "verified",
+        "description_accuracy": "accurate",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "8ca22dba9a94f28898bbce59f2537ff4d87c747d",
+        "audited_on": "2026-10-16",
+        "note": "Live source adds concrete file/interface/TDD-oriented plan conventions.",
+        "skill_md_url": "https://raw.githubusercontent.com/obra/superpowers/main/skills/writing-plans/SKILL.md"
+      }
+    },
+    {
+      "id": "file-organizer",
+      "name": "File Organizer",
+      "pack": "productivity-workflow",
+      "kind": "original",
+      "source_repository": "ComposioHQ/awesome-claude-skills",
+      "source_url": "https://github.com/ComposioHQ/awesome-claude-skills/tree/master/file-organizer",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FComposioHQ%2Fawesome-claude-skills%2Ftree%2Fmaster%2Ffile-organizer",
+      "summary": "Guides organization of a selected local directory: inspect structure/types, identify exact/name-based duplicates, propose folders/names, then after approval move/rename while logging changes; includes archive and maintenance guidance.",
+      "use_when": "Cleaning up Downloads/Desktop/Documents/Photos/projects; reviewing duplicates, organizing active vs archive work, sorting photos by date, establishing structure, or preparing backups.",
+      "tags": [
+        "file-management",
+        "organization",
+        "duplicates",
+        "cleanup",
+        "archiving",
+        "local-files",
+        "claude-code"
+      ],
+      "requirements": "Shell-capable environment with target-directory access. User confirmation before deletion; documented md5 command may not exist on all OSs.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "needs-update",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "044d48b594f060c164f3b20fac9ea01374721bca (2025-10-17)",
+        "audited_on": "2026-10-16",
+        "note": "Former wording overstated automation and omitted approval before destructive work.",
+        "skill_md_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/file-organizer/SKILL.md"
+      }
+    },
+    {
+      "id": "invoice-organizer",
+      "name": "Invoice Organizer",
+      "pack": "productivity-workflow",
+      "kind": "original",
+      "source_repository": "ComposioHQ/awesome-claude-skills",
+      "source_url": "https://github.com/ComposioHQ/awesome-claude-skills/tree/master/invoice-organizer",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FComposioHQ%2Fawesome-claude-skills%2Ftree%2Fmaster%2Finvoice-organizer",
+      "summary": "Organizes invoice/receipt files by extracting vendor, date, invoice number, amount, and description; proposes standard names, sorts copies by vendor/category/date/tax, produces CSV summaries, preserves originals, and flags incomplete/duplicate records.",
+      "use_when": "A messy folder of invoice PDFs, receipts, images, attachments, screenshots, or statements needs tax filing, expense reconciliation, sorting, renaming, or accountant-ready CSV; obtain approval before file changes.",
+      "tags": [
+        "invoices",
+        "receipts",
+        "tax-preparation",
+        "expense-organization",
+        "file-renaming",
+        "csv-reporting"
+      ],
+      "requirements": "Claude Code/shell access to target folder and PDF/image extraction for scans. No credential.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "accurate",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "044d48b594f060c164f3b20fac9ea01374721bca (2025-10-17)",
+        "audited_on": "2026-10-16",
+        "note": "Live source confirms field extraction, preservation, approval, CSV, and duplicate handling.",
+        "skill_md_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/invoice-organizer/SKILL.md"
+      }
+    },
+    {
+      "id": "meeting-insights-analyzer",
+      "name": "Meeting Insights Analyzer",
+      "pack": "productivity-workflow",
+      "kind": "original",
+      "source_repository": "ComposioHQ/awesome-claude-skills",
+      "source_url": "https://github.com/ComposioHQ/awesome-claude-skills/tree/master/meeting-insights-analyzer",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FComposioHQ%2Fawesome-claude-skills%2Ftree%2Fmaster%2Fmeeting-insights-analyzer",
+      "summary": "Analyzes local meeting transcripts to identify communication/facilitation patterns\u2014conflict avoidance, speaking ratios, interruptions, filler words, listening, clarity, and decision making\u2014with timestamped examples, trends, strengths, and actions.",
+      "use_when": "Reviewing accessible TXT, Markdown, VTT, SRT, or DOCX transcripts to assess communication, facilitation, leadership, listening, interruptions, filler words, conflict handling, or change over time.",
+      "tags": [
+        "meeting-analysis",
+        "communication-patterns",
+        "leadership",
+        "facilitation",
+        "transcript-analysis",
+        "feedback",
+        "professional-development"
+      ],
+      "requirements": "Local transcript/recording files in a readable folder; speaker labels/timestamps improve analysis. No credential or separate dependency.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "accurate",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "044d48b594f060c164f3b20fac9ea01374721bca (2025-10-17)",
+        "audited_on": "2026-10-16",
+        "note": "Current source specifies file formats, timestamps, comparative trends, and concrete analysis dimensions.",
+        "skill_md_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/meeting-insights-analyzer/SKILL.md"
+      }
+    },
+    {
+      "id": "internal-comms",
+      "name": "Internal Comms",
+      "pack": "productivity-workflow",
+      "kind": "original",
+      "source_repository": "anthropics/skills",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/internal-comms",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fanthropics%2Fskills%2Ftree%2Fmain%2Fskills%2Finternal-comms",
+      "summary": "Guidance and examples for 3P updates, newsletters, FAQs, status/leadership/project updates, and incident reports. Selects the matching examples/ guide for formatting, tone, and content-gathering instructions.",
+      "use_when": "Drafting or revising internal 3P/team updates, newsletters, FAQs, status reports, leadership updates, projects updates, or incident reports.",
+      "tags": [
+        "internal-communications",
+        "3p-updates",
+        "status-reports",
+        "leadership-updates",
+        "company-newsletters",
+        "faqs",
+        "incident-reports",
+        "project-updates"
+      ],
+      "requirements": "Skill runtime with checked-out examples/ files; no external service, credential, or special dependency.",
+      "verification": {
+        "status": "verified",
+        "description_accuracy": "accurate",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "b9e19e6f44773509fbdd7001d77ff41a49a486c1 (2026-04-20)",
+        "audited_on": "2026-10-16",
+        "note": "Live source scope matches catalog and examples/ requirement.",
+        "skill_md_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/internal-comms/SKILL.md"
+      }
+    },
+    {
+      "id": "tailored-resume-generator",
+      "name": "Tailored Resume Generator",
+      "pack": "productivity-workflow",
+      "kind": "original",
+      "source_repository": "ComposioHQ/awesome-claude-skills",
+      "source_url": "https://github.com/ComposioHQ/awesome-claude-skills/tree/master/tailored-resume-generator",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FComposioHQ%2Fawesome-claude-skills%2Ftree%2Fmaster%2Ftailored-resume-generator",
+      "summary": "Maps a supplied job description to substantiated candidate experience and produces an ATS-oriented tailored resume with prioritized skills, quantified achievements, formatting guidance, gap analysis, and interview/cover-letter recommendations.",
+      "use_when": "Applying for a role, adapting a resume to a job/industry, emphasizing transferable experience, optimizing truthful ATS alignment, or producing role-specific versions.",
+      "tags": [
+        "resume",
+        "job-applications",
+        "job-description-analysis",
+        "ats-optimization",
+        "career-transition",
+        "professional-writing"
+      ],
+      "requirements": "Full job description and candidate background; an existing resume may be supplied. No external dependency or credential.",
+      "verification": {
+        "status": "verified",
+        "description_accuracy": "accurate",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "d78e10c8747951904e6fa0544e449a6363d4753b (2026-01-11)",
+        "audited_on": "2026-10-16",
+        "note": "Live source confirms truthful substantiation, ATS safety, gap analysis, and iteration.",
+        "skill_md_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/tailored-resume-generator/SKILL.md"
+      }
+    },
+    {
+      "id": "brainstorming",
+      "name": "Brainstorming",
+      "pack": "productivity-workflow",
+      "kind": "original",
+      "source_repository": "obra/superpowers",
+      "source_url": "https://github.com/obra/superpowers/tree/main/skills/brainstorming",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fobra%2Fsuperpowers%2Ftree%2Fmain%2Fskills%2Fbrainstorming",
+      "summary": "Use before non-trivial new work to clarify intent, goals, constraints, success criteria, context, and choices through question-led conversation, playback, sizing, optional visuals/spikes, and explicit approval before building.",
+      "use_when": "Before features, components, behavior changes, plans, or creative work with meaningful unresolved scope/constraints/design choices; bypass for quick fully specified tasks or explicit opt-outs.",
+      "tags": [
+        "brainstorming",
+        "requirements",
+        "user-intent",
+        "scope",
+        "design",
+        "creative-work",
+        "visual-companion"
+      ],
+      "requirements": "No credential/service. Optional visual companion needs browser/server; written-design builder check can use a subagent or self-review.",
+      "verification": {
+        "status": "verified",
+        "description_accuracy": "needs-update",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "bb92a77741419a4ab5f06e711a283343f1ada0c3 (2026-10-10)",
+        "audited_on": "2026-10-16",
+        "note": "Former wording omitted playback, sizing, visual/spike options, and hard approval gate.",
+        "skill_md_url": "https://raw.githubusercontent.com/obra/superpowers/main/skills/brainstorming/SKILL.md"
+      }
+    },
+    {
+      "id": "subagent-driven-development",
+      "name": "Subagent-Driven Development",
+      "pack": "productivity-workflow",
+      "kind": "original",
+      "source_repository": "obra/superpowers",
+      "source_url": "https://github.com/obra/superpowers/tree/main/skills/subagent-driven-development",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fobra%2Fsuperpowers%2Ftree%2Fmain%2Fskills%2Fsubagent-driven-development",
+      "summary": "Executes a plan by dispatching a fresh implementer for each mostly independent task, running specification/quality review after each, then a broad final review; uses isolated worktree, ledger, continuous execution, and bounded fix/re-review loops.",
+      "use_when": "A plan has mostly independent tasks and the environment supports subagent dispatch and shared plan workspace; choose inline execution when work is tightly coupled, inline is requested, or subagents are unavailable.",
+      "tags": [
+        "productivity-workflow",
+        "implementation-plans",
+        "subagents",
+        "code-review",
+        "git-worktrees"
+      ],
+      "requirements": "Plan, subagent dispatch, isolated Git worktree/shared workspace, and supporting scripts/prompts; permission to implement/test/commit/review in current session.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "needs-update",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "5bf4e78011075bcfc0dc295f0724994cd123ee71 (2026-09-19)",
+        "audited_on": "2026-10-16",
+        "note": "Former wording omitted per-task implementer/reviewer and final-review workflow.",
+        "skill_md_url": "https://raw.githubusercontent.com/obra/superpowers/main/skills/subagent-driven-development/SKILL.md"
+      }
+    },
+    {
+      "id": "content-research-writer",
+      "name": "Content Research Writer",
+      "pack": "research-data",
+      "kind": "original",
+      "source_repository": "ComposioHQ/awesome-claude-skills",
+      "source_url": "https://github.com/ComposioHQ/awesome-claude-skills/tree/master/content-research-writer",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FComposioHQ%2Fawesome-claude-skills%2Ftree%2Fmaster%2Fcontent-research-writer",
+      "summary": "Collaborative writing partner for outlining, source-based research, citation formatting, hook improvement, section feedback, voice preservation, and final review across articles, newsletters, tutorials, case studies, technical docs, and thought leadership.",
+      "use_when": "In a writing-project directory, develop sourced long-form content; iterate outline, research gaps, credible citations, introductions, sections, voice, or final structure/evidence/clarity review.",
+      "tags": [
+        "writing",
+        "content-research",
+        "outlining",
+        "citations",
+        "editing",
+        "feedback",
+        "hooks",
+        "long-form-content"
+      ],
+      "requirements": "Claude Code session and writable writing-project directory; research/citations need source access. No specific package/credential.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "accurate",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "044d48b594f060c164f3b20fac9ea01374721bca (2025-10-17)",
+        "audited_on": "2026-10-16",
+        "note": "Live source documents collaborative multi-stage writing workflow.",
+        "skill_md_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/content-research-writer/SKILL.md"
+      }
+    },
+    {
+      "id": "competitive-ads-extractor",
+      "name": "Competitive Ads Extractor",
+      "pack": "research-data",
+      "kind": "original",
+      "source_repository": "ComposioHQ/awesome-claude-skills",
+      "source_url": "https://github.com/ComposioHQ/awesome-claude-skills/tree/master/competitive-ads-extractor",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FComposioHQ%2Fawesome-claude-skills%2Ftree%2Fmaster%2Fcompetitive-ads-extractor",
+      "summary": "Extracts competitor ads from Facebook Ad Library, LinkedIn, and similar libraries; captures screenshots and analyzes messaging, pain points, use cases, value propositions, formats, CTAs, audiences, and recurring creative patterns.",
+      "use_when": "Researching competitor advertising, comparing brands/platforms, identifying repeated positioning, planning original ad concepts, or tracking messaging changes.",
+      "tags": [
+        "competitive-intelligence",
+        "advertising",
+        "ad-libraries",
+        "messaging-analysis",
+        "creative-research",
+        "marketing"
+      ],
+      "requirements": "Access to ad-library pages and environment able to collect content/screenshots/save analysis. Platform access rules may vary; no API/credential specified.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "accurate",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "044d48b594f060c164f3b20fac9ea01374721bca (2025-10-17)",
+        "audited_on": "2026-10-16",
+        "note": "Live source adds screenshots, categorization, patterns, planning, and trend tracking.",
+        "skill_md_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/competitive-ads-extractor/SKILL.md"
+      }
+    },
+    {
+      "id": "lead-research-assistant",
+      "name": "Lead Research Assistant",
+      "pack": "research-data",
+      "kind": "original",
+      "source_repository": "ComposioHQ/awesome-claude-skills",
+      "source_url": "https://github.com/ComposioHQ/awesome-claude-skills/tree/master/lead-research-assistant",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FComposioHQ%2Fawesome-claude-skills%2Ftree%2Fmaster%2Flead-research-assistant",
+      "summary": "Analyzes product/service and ICP, identifies and prioritizes matching companies, and provides decision-maker targeting, value propositions, outreach strategies, conversation starters, and optional LinkedIn details.",
+      "use_when": "Identifying target accounts/partners/clients, fitting companies to industry/location/size/technology/growth/funding/pain profile, scoring leads, or preparing personalized CRM-ready outreach.",
+      "tags": [
+        "lead-generation",
+        "sales-research",
+        "business-development",
+        "ideal-customer-profile",
+        "account-research",
+        "outreach-strategy"
+      ],
+      "requirements": "Provide product/service context and target criteria; codebase is optional; research needs available search access. No explicit credential/dependency.",
+      "verification": {
+        "status": "verified",
+        "description_accuracy": "accurate",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "044d48b594f060c164f3b20fac9ea01374721bca (2025-10-17)",
+        "audited_on": "2026-10-16",
+        "note": "Live source confirms ICP signals, roles, tailored value propositions, and scoring.",
+        "skill_md_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/lead-research-assistant/SKILL.md"
+      }
+    },
+    {
+      "id": "twitter-algorithm-optimizer",
+      "name": "Twitter Algorithm Optimizer",
+      "pack": "research-data",
+      "kind": "original",
+      "source_repository": "ComposioHQ/awesome-claude-skills",
+      "source_url": "https://github.com/ComposioHQ/awesome-claude-skills/tree/master/twitter-algorithm-optimizer",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FComposioHQ%2Fawesome-claude-skills%2Ftree%2Fmaster%2Ftwitter-algorithm-optimizer",
+      "summary": "Analyzes and rewrites X/Twitter drafts using documented recommendation concepts\u2014Real-graph, SimClusters, TwHIN, Tweepcred, engagement, retrieval, ranking, filtering, and delivery\u2014and flags negative-signal risk.",
+      "use_when": "Optimizing an X/Twitter post for reach/engagement, diagnosing a draft, aligning it to a community, or requesting an algorithm-oriented rewrite; not generic grammar/tone editing.",
+      "tags": [
+        "x-twitter",
+        "tweet-optimization",
+        "social-media",
+        "engagement",
+        "recommendation-systems",
+        "content-strategy"
+      ],
+      "requirements": "No credential, API, files, or runtime dependency is specified. Guidance is conceptual and does not provide live performance measurement.",
+      "verification": {
+        "status": "verified",
+        "description_accuracy": "accurate",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "da5363b72cd17573823a696b53b4e8f437458df3 (2026-01-21)",
+        "audited_on": "2026-10-16",
+        "note": "Live source matches documented Twitter-specific scope.",
+        "skill_md_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/twitter-algorithm-optimizer/SKILL.md"
+      }
+    },
+    {
+      "id": "xlsx-advanced-spreadsheet-manipulation",
+      "name": "XLSX (Advanced Spreadsheet Manipulation)",
+      "pack": "research-data",
+      "kind": "original",
+      "source_repository": "anthropics/skills",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/xlsx",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fanthropics%2Fskills%2Ftree%2Fmain%2Fskills%2Fxlsx",
+      "summary": "Use when spreadsheets are the main input/output: create, edit, read, analyze, clean, restructure, or convert .xlsx, .xlsm, .xltx, .csv, and .tsv; covers formulas, formatting, charts, model inspection, recalculation, validation, and cleanup.",
+      "use_when": "A spreadsheet/tabular file is the primary deliverable/input: workbooks, columns/formulas, styling, charting, models, malformed tables, or conversion. Not for Word/HTML reports, standalone scripts, databases, or Google Sheets API.",
+      "tags": [
+        "xlsx",
+        "xlsm",
+        "xltx",
+        "csv",
+        "tsv",
+        "openpyxl",
+        "pandas",
+        "markitdown",
+        "formulas",
+        "formatting",
+        "charts",
+        "data-cleaning",
+        "libreoffice"
+      ],
+      "requirements": "openpyxl, pandas, markitdown, and LibreOffice for recalculation; upstream target environment preinstalls/configures them and directs install only after a failed check.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "needs-update",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "fa0fa64bdc967915dc8399e803be67759e1e62b8 (2026-07-17)",
+        "audited_on": "2026-10-16",
+        "note": "Former wording omitted formats, model inspection, recalculation, and non-trigger cases.",
+        "skill_md_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/xlsx/SKILL.md"
+      }
+    },
+    {
+      "id": "pdf-advanced-document-manipulation",
+      "name": "PDF (Advanced Document Manipulation)",
+      "pack": "research-data",
+      "kind": "original",
+      "source_repository": "anthropics/skills",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/pdf",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fanthropics%2Fskills%2Ftree%2Fmain%2Fskills%2Fpdf",
+      "summary": "Processes PDFs with Python/CLI tools: extract text, metadata, tables, and images; merge, split, rotate, watermark, create, encrypt/decrypt, fill forms, and OCR scans. Includes forms/reference documentation.",
+      "use_when": "Reading, extracting, creating, merging, splitting, rotating, watermarking, filling, encrypting/decrypting, extracting images from, or OCRing a PDF.",
+      "tags": [
+        "pdf",
+        "text-extraction",
+        "table-extraction",
+        "pdf-forms",
+        "ocr",
+        "merge-split",
+        "watermarking",
+        "encryption"
+      ],
+      "requirements": "Operation-dependent pypdf, pdfplumber, reportlab, pytesseract, pdf2image; pdftotext, pdfimages, qpdf, optionally pdftk; OCR engine/PDF-to-image for scans.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "needs-update",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "4e6907a33c3c0c9ce7c1836980546aaba78a34b5 (2026-02-04)",
+        "audited_on": "2026-10-16",
+        "note": "Former wording omitted PDF creation/image extraction and dependencies.",
+        "skill_md_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/pdf/SKILL.md"
+      }
+    },
+    {
+      "id": "docx-word-document-generation",
+      "name": "DOCX (Word Document Generation)",
+      "pack": "research-data",
+      "kind": "original",
+      "source_repository": "anthropics/skills",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/docx",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fanthropics%2Fskills%2Ftree%2Fmain%2Fskills%2Fdocx",
+      "summary": "Creates, reads, edits, and analyzes .docx and .dotx documents: docx-js generation, XML editing, find/replace, tracked changes, comments, image insertion, formatting, validation, and rendering for visual review.",
+      "use_when": "Creating, reading, editing, analyzing, validating, or converting Word .docx/.dotx; inserting/replacing content/images, formatting, tracked changes/comments, or polished Word reports/templates.",
+      "tags": [
+        "docx",
+        "word",
+        "dotx",
+        "document-generation",
+        "document-editing",
+        "tracked-changes",
+        "comments",
+        "templates"
+      ],
+      "requirements": "Skill scripts plus pandoc, LibreOffice/soffice, Poppler pdftoppm, and npm docx (install only if require check fails). Rendering/conversion requires LibreOffice/Poppler.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "needs-update",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "fa0fa64bdc967915dc8399e803be67759e1e62b8 (2026-07-17)",
+        "audited_on": "2026-10-16",
+        "note": "Former wording omitted .dotx, comments/images, analysis, validation/rendering, and runtime requirements.",
+        "skill_md_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/docx/SKILL.md"
+      }
+    },
+    {
+      "id": "video-downloader",
+      "name": "Video Downloader",
+      "pack": "research-data",
+      "kind": "original",
+      "source_repository": "ComposioHQ/awesome-claude-skills",
+      "source_url": "https://github.com/ComposioHQ/awesome-claude-skills/tree/master/video-downloader",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FComposioHQ%2Fawesome-claude-skills%2Ftree%2Fmaster%2Fvideo-downloader",
+      "summary": "Downloads one YouTube video using bundled Python/yt-dlp tooling, supporting selected/best resolution, MP4/WebM/MKV, MP3-only output, configurable destination, and playlists disabled by default.",
+      "use_when": "Saving a single YouTube video with specified quality, format, audio-only mode, or target directory.",
+      "tags": [
+        "youtube",
+        "video-download",
+        "yt-dlp",
+        "mp4",
+        "webm",
+        "mkv",
+        "mp3",
+        "audio-extraction"
+      ],
+      "requirements": "Python 3 and network; script auto-installs yt-dlp when absent. Runtime must permit install/post-processing and write output directory.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "accurate",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "c38a0c89def5f96b2fcd6ddfc5ee2fe0e032815c (2025-12-29)",
+        "audited_on": "2026-10-16",
+        "note": "Source confirms quality/formats/output path and playlist default.",
+        "skill_md_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/video-downloader/SKILL.md"
+      }
+    },
+    {
+      "id": "domain-name-brainstormer",
+      "name": "Domain Name Brainstormer",
+      "pack": "research-data",
+      "kind": "original",
+      "source_repository": "ComposioHQ/awesome-claude-skills",
+      "source_url": "https://github.com/ComposioHQ/awesome-claude-skills/tree/master/domain-name-brainstormer",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FComposioHQ%2Fawesome-claude-skills%2Ftree%2Fmaster%2Fdomain-name-brainstormer",
+      "summary": "Generates domain candidates from a project brief, extension alternatives (.com/.io/.dev/.ai/.app), and branding rationale, with keyword/industry/multilingual/competitor-pattern workflows and prompts to check availability.",
+      "use_when": "Starting, launching, rebranding, or naming a product/company/project/personal brand and needing domain candidates, extension alternatives, or naming guidance.",
+      "tags": [
+        "domain-names",
+        "brainstorming",
+        "branding",
+        "product-naming",
+        "tlds",
+        "availability-checks"
+      ],
+      "requirements": "No external dependency, credential, or runtime specified. Verify real-time availability/pricing independently with a registrar.",
+      "verification": {
+        "status": "verified",
+        "description_accuracy": "accurate",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "044d48b594f060c164f3b20fac9ea01374721bca (2025-10-17)",
+        "audited_on": "2026-10-16",
+        "note": "Live source does not document a registrar or availability API integration.",
+        "skill_md_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/domain-name-brainstormer/SKILL.md"
+      }
+    },
+    {
+      "id": "doc-coauthoring",
+      "name": "Doc Coauthoring",
+      "pack": "research-data",
+      "kind": "original",
+      "source_repository": "anthropics/skills",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fanthropics%2Fskills%2Ftree%2Fmain%2Fskills%2Fdoc-coauthoring",
+      "summary": "Guides collaborative documentation, proposals, technical specs, RFCs, and decision documents through context gathering, section-by-section refinement/structure, and reader testing; asks targeted questions and checks completed drafts for ambiguity and reader gaps.",
+      "use_when": "Writing or substantially developing documentation, a proposal, PRD, technical spec, RFC, decision document, or similar structured work; offer staged workflow and allow freeform work if declined.",
+      "tags": [
+        "documentation",
+        "co-authoring",
+        "proposals",
+        "technical-specifications",
+        "rfcs",
+        "decision-documents",
+        "reader-testing"
+      ],
+      "requirements": "No mandatory dependency. Optional integrations can retrieve team context and optional subagents automate reader testing; manual/local Markdown alternatives are supported.",
+      "verification": {
+        "status": "verified",
+        "description_accuracy": "needs-update",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "00756142ab04c82a447693cf373c4e0c554d1005 (2025-12-04)",
+        "audited_on": "2026-10-16",
+        "note": "Former wording added unsupported voice/long-form claim and omitted staged reader-testing scope.",
+        "skill_md_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/doc-coauthoring/SKILL.md"
+      }
+    },
+    {
+      "id": "deploy-to-vercel",
+      "name": "Deploy to Vercel",
+      "pack": "security-devops",
+      "kind": "original",
+      "source_repository": "vercel-labs/agent-skills",
+      "source_url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/deploy-to-vercel",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fvercel-labs%2Fagent-skills%2Ftree%2Fmain%2Fskills%2Fdeploy-to-vercel",
+      "summary": "Deploys projects to Vercel, preferring preview deployments while detecting state, selecting team scope, linking, deploying by Git or CLI, inspecting status, and reporting preview/claim URLs; includes supported no-auth sandbox fallbacks.",
+      "use_when": "Deploying a website/app to Vercel, creating a preview, linking a project, pushing live only when explicitly requested, or obtaining a deployment URL.",
+      "tags": [
+        "vercel",
+        "deployment",
+        "preview-deployments",
+        "cli",
+        "git-integration",
+        "team-scope"
+      ],
+      "requirements": "Project path plus authenticated Vercel CLI, Git/Vercel integration, or supported no-auth fallback. Team may be required; production requires explicit user request.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "needs-update",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "aed32ad7664596a5bbb7263659acdbe461f8929c (2026-03-06)",
+        "audited_on": "2026-10-16",
+        "note": "Former wording omitted preview default, linking/state, team/CLI, and fallback workflow.",
+        "skill_md_url": "https://raw.githubusercontent.com/vercel-labs/agent-skills/main/skills/deploy-to-vercel/SKILL.md"
+      }
+    },
+    {
+      "id": "vercel-cli-with-tokens",
+      "name": "Vercel CLI with Tokens",
+      "pack": "security-devops",
+      "kind": "original",
+      "source_repository": "vercel-labs/agent-skills",
+      "source_url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/vercel-cli-with-tokens",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fvercel-labs%2Fagent-skills%2Ftree%2Fmain%2Fskills%2Fvercel-cli-with-tokens",
+      "summary": "Uses Vercel CLI with VERCEL_TOKEN for preview or approved production deploys, project/team linking/targeting, inspection/logs, environment/domain management, and Stripe Projects plan changes; avoids token exposure and interactive-linking pitfalls.",
+      "use_when": "An automated/non-interactive workflow must deploy, inspect logs, manage env/domains, link a project, or perform approved Stripe Projects change using Vercel CLI tokens.",
+      "tags": [
+        "vercel",
+        "cli",
+        "deployment",
+        "access-token",
+        "environment-variables",
+        "domains",
+        "devops",
+        "automation"
+      ],
+      "requirements": "Vercel CLI, VERCEL_TOKEN via env/.env, and project/team context; Git for push path. Stripe CLI/resource only for Stripe Projects section.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "needs-update",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "77a6a14899999ebedc2521e1606bf1ca4a02e256 (2026-04-17)",
+        "audited_on": "2026-10-16",
+        "note": "Former wording omitted domains/log inspection, preview default, token safeguards, and Stripe section.",
+        "skill_md_url": "https://raw.githubusercontent.com/vercel-labs/agent-skills/main/skills/vercel-cli-with-tokens/SKILL.md"
+      }
+    },
+    {
+      "id": "using-git-worktrees",
+      "name": "Using Git Worktrees",
+      "pack": "security-devops",
+      "kind": "original",
+      "source_repository": "obra/superpowers",
+      "source_url": "https://github.com/obra/superpowers/tree/main/skills/using-git-worktrees",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fobra%2Fsuperpowers%2Ftree%2Fmain%2Fskills%2Fusing-git-worktrees",
+      "summary": "Sets up isolated implementation workspaces by detecting existing worktrees/submodules, preferring native tools or safety-checked Git worktree fallback, checking ignore rules, handling sandbox permission fallback, installing dependencies, and testing a clean baseline.",
+      "use_when": "Before feature work or plan execution needing isolation from current checkout, or when safely preparing/detecting an existing worktree.",
+      "tags": [
+        "git",
+        "worktrees",
+        "workspace-isolation",
+        "feature-development",
+        "repository-safety",
+        "baseline-testing"
+      ],
+      "requirements": "Git repo and shell. Native worktree tooling optional; dependency installation/baseline tests depend on project toolchain. No credential.",
+      "verification": {
+        "status": "verified",
+        "description_accuracy": "needs-update",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "bc868020bbcec32bbaf9d6b51fa0538dba0b487f (2026-07-24)",
+        "audited_on": "2026-10-16",
+        "note": "Former wording omitted isolation/submodule/consent/ignore safety and baseline setup.",
+        "skill_md_url": "https://raw.githubusercontent.com/obra/superpowers/main/skills/using-git-worktrees/SKILL.md"
+      }
+    },
+    {
+      "id": "verification-before-completion",
+      "name": "Verification Before Completion",
+      "pack": "security-devops",
+      "kind": "original",
+      "source_repository": "obra/superpowers",
+      "source_url": "https://github.com/obra/superpowers/tree/main/skills/verification-before-completion",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fobra%2Fsuperpowers%2Ftree%2Fmain%2Fskills%2Fverification-before-completion",
+      "summary": "Evidence-first completion gate: before claiming complete/fixed/passing/ready/committed, identify a proving command/check, run it freshly and fully, inspect output/exit code/count failures, and report only evidence-supported status.",
+      "use_when": "Immediately before completion/correctness/satisfaction/commit/PR/handoff claims when verification matters; run full relevant test, lint, build, regression, checklist, or VCS-diff check and report gaps.",
+      "tags": [
+        "verification",
+        "testing",
+        "quality-gates",
+        "evidence-first",
+        "completion-checks",
+        "devops"
+      ],
+      "requirements": "Ability to run relevant verification and inspect complete output/exit status. No external credential or special runtime.",
+      "verification": {
+        "status": "verified",
+        "description_accuracy": "accurate",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "3be5aad3dd2400ef23b15680969f4bcd3b6d7b8b (2026-07-24)",
+        "audited_on": "2026-10-16",
+        "note": "Live source rejects assumptions, partial/prior runs, and unverified success reports.",
+        "skill_md_url": "https://raw.githubusercontent.com/obra/superpowers/main/skills/verification-before-completion/SKILL.md"
+      }
+    },
+    {
+      "id": "skill-creator-anthropic",
+      "name": "Skill Creator (Anthropic)",
+      "pack": "security-devops",
+      "kind": "original",
+      "source_repository": "anthropics/skills",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/skill-creator",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fanthropics%2Fskills%2Ftree%2Fmain%2Fskills%2Fskill-creator",
+      "summary": "Creates, edits, and iteratively improves Agent Skills through intent capture, SKILL.md authoring, test-case design, baseline-vs-skill evaluation, grading/benchmark aggregation, qualitative review, refinement, trigger optimization, and packaging.",
+      "use_when": "Creating/revising a SKILL.md, designing/running evaluations, comparing baseline results, analyzing benchmark variance, improving trigger description, or packaging a completed skill.",
+      "tags": [
+        "agent-skills",
+        "skill-md",
+        "skill-authoring",
+        "evaluation",
+        "benchmarking",
+        "trigger-optimization",
+        "claude-code"
+      ],
+      "requirements": "Filesystem/Python for scripts. Automated trigger evaluation/description optimization uses claude -p; review viewer/browser availability varies. Claude.ai/Cowork alternatives documented.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "accurate",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "b0cbd3df1533b396d281a6886d5132f623393a9c (2026-03-06)",
+        "audited_on": "2026-10-16",
+        "note": "Current source is broader than catalog but description remains accurate.",
+        "skill_md_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/skill-creator/SKILL.md"
+      }
+    },
+    {
+      "id": "skill-creator-composio",
+      "name": "Skill Creator (Composio)",
+      "pack": "security-devops",
+      "kind": "original",
+      "source_repository": "ComposioHQ/awesome-claude-skills",
+      "source_url": "https://github.com/ComposioHQ/awesome-claude-skills/tree/master/skill-creator",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FComposioHQ%2Fawesome-claude-skills%2Ftree%2Fmaster%2Fskill-creator",
+      "summary": "Procedural guide to create or update Claude skills: define triggering examples, plan reusable scripts/references/assets, write imperative SKILL.md instructions, initialize with init_skill.py, package/validate with package_skill.py, and iterate from real tasks.",
+      "use_when": "Creating a new skill, revising an existing one, planning reusable resources, improving SKILL.md, or validating/packaging a skill for distribution.",
+      "tags": [
+        "skill-authoring",
+        "claude-skills",
+        "skill-md",
+        "workflow-design",
+        "packaging",
+        "validation"
+      ],
+      "requirements": "Claude skill-capable environment; bundled Python initialization/packaging scripts. No external credential.",
+      "verification": {
+        "status": "verified",
+        "description_accuracy": "needs-update",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "5380239b724883543db9e9e2de56c4dd8796090d (2025-10-22)",
+        "audited_on": "2026-10-16",
+        "note": "Former wording omitted update, initialization, packaging, validation, and feedback iteration.",
+        "skill_md_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/skill-creator/SKILL.md"
+      }
+    },
+    {
+      "id": "mcp-builder-anthropic",
+      "name": "MCP Builder (Anthropic)",
+      "pack": "security-devops",
+      "kind": "original",
+      "source_repository": "anthropics/skills",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/mcp-builder",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fanthropics%2Fskills%2Ftree%2Fmain%2Fskills%2Fmcp-builder",
+      "summary": "Four-phase guide for high-quality MCP servers: research MCP/framework docs, plan and implement external-API tools in TypeScript/Python, build/test with MCP Inspector, and create ten read-only evaluation questions. Covers schemas, outputs, pagination, errors, annotations, transports, and references.",
+      "use_when": "Designing, implementing, reviewing, testing, or evaluating an MCP server connecting an LLM to an external API/service in TypeScript MCP SDK or Python FastMCP.",
+      "tags": [
+        "mcp",
+        "model-context-protocol",
+        "server-development",
+        "typescript",
+        "python",
+        "fastmcp",
+        "mcp-sdk",
+        "api-integration",
+        "tool-design",
+        "evaluation"
+      ],
+      "requirements": "Repository references/current MCP/SDK docs; TypeScript/Python runtime plus relevant SDK/FastMCP; MCP Inspector; target-service credentials if connecting live.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "accurate",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "ef740771ac901e03fbca3ce4e1c453a96010f30a (2025-12-01)",
+        "audited_on": "2026-10-16",
+        "note": "Live source confirms language and quality/evaluation scope.",
+        "skill_md_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/mcp-builder/SKILL.md"
+      }
+    },
+    {
+      "id": "mcp-builder-composio",
+      "name": "MCP Builder (Composio)",
+      "pack": "security-devops",
+      "kind": "original",
+      "source_repository": "ComposioHQ/awesome-claude-skills",
+      "source_url": "https://github.com/ComposioHQ/awesome-claude-skills/tree/master/mcp-builder",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FComposioHQ%2Fawesome-claude-skills%2Ftree%2Fmaster%2Fmcp-builder",
+      "summary": "Workflow and quality guide for MCP servers exposing external services: agent-centric tool design, API/protocol research, Python/FastMCP and Node/TypeScript implementation, validation/errors, testing, and evaluation creation with reference guides.",
+      "use_when": "Planning, implementing, reviewing, testing, or evaluating external-API MCP servers, especially choosing Python/FastMCP versus Node/TypeScript patterns.",
+      "tags": [
+        "mcp",
+        "model-context-protocol",
+        "api-integration",
+        "fastmcp",
+        "typescript",
+        "tool-design",
+        "evaluation"
+      ],
+      "requirements": "MCP protocol/SDK docs, reference files, Python MCP SDK or Node/TypeScript MCP SDK, target-service docs and any required credentials/runtime.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "needs-update",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "5380239b724883543db9e9e2de56c4dd8796090d (2025-10-22)",
+        "audited_on": "2026-10-16",
+        "note": "Former wording understated phased development, research, testing, and evaluation.",
+        "skill_md_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/mcp-builder/SKILL.md"
+      }
+    },
+    {
+      "id": "writing-skills",
+      "name": "Writing Skills",
+      "pack": "security-devops",
+      "kind": "original",
+      "source_repository": "obra/superpowers",
+      "source_url": "https://github.com/obra/superpowers/tree/main/skills/writing-skills",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fobra%2Fsuperpowers%2Ftree%2Fmain%2Fskills%2Fwriting-skills",
+      "summary": "Test-driven method for authoring, revising, and validating agent skills: define pressure scenarios, observe baseline failures, write docs, verify compliance, and close loopholes by refactoring. Covers structure, descriptions, token efficiency, and deployment checks.",
+      "use_when": "Creating a skill, editing SKILL.md, or verifying that a skill change affects agent behavior before deployment.",
+      "tags": [
+        "agent-skills",
+        "skill-authoring",
+        "documentation",
+        "test-driven-development",
+        "validation",
+        "claude-code"
+      ],
+      "requirements": "Understanding of Superpowers test-driven-development; support files/runtime-specific skill directories may be needed across supported harnesses.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "accurate",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "5bf4e78011075bcfc0dc295f0724994cd123ee71 (2026-09-19)",
+        "audited_on": "2026-10-16",
+        "note": "Live source supports authoring/editing/verification with a TDD prerequisite.",
+        "skill_md_url": "https://raw.githubusercontent.com/obra/superpowers/main/skills/writing-skills/SKILL.md"
+      }
+    },
+    {
+      "id": "using-superpowers",
+      "name": "Using Superpowers",
+      "pack": "security-devops",
+      "kind": "original",
+      "source_repository": "obra/superpowers",
+      "source_url": "https://github.com/obra/superpowers/tree/main/skills/using-superpowers",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fobra%2Fsuperpowers%2Ftree%2Fmain%2Fskills%2Fusing-superpowers",
+      "summary": "Meta-skill for Superpowers discovery/execution: before responding or acting, invoke relevant/requested skills; apply process before implementation skills, follow checklists, announce selected skill, and adapt to harness. Dispatched task subagents are exempt.",
+      "use_when": "At the start of a task in a harness loading Superpowers, before questions, planning, exploration, implementation, or debugging; skip for dispatched subagents per its exception.",
+      "tags": [
+        "meta-skill",
+        "skill-discovery",
+        "workflow-enforcement",
+        "harness-adaptation",
+        "agent-instructions"
+      ],
+      "requirements": "Superpowers collection and compatible invocation mechanism; platform guidance covers several harnesses. No credential.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "needs-update",
+        "evidence_type": "live upstream SKILL.md and GitHub path evidence (audited record)",
+        "upstream_ref": "5bf4e78011075bcfc0dc295f0724994cd123ee71 (2026-09-19)",
+        "audited_on": "2026-10-16",
+        "note": "Former wording omitted actions, requested skills, harness adaptation, announcement, and explicit subagent exception.",
+        "skill_md_url": "https://raw.githubusercontent.com/obra/superpowers/main/skills/using-superpowers/SKILL.md"
+      }
+    },
+    {
+      "id": "autoskill",
+      "name": "Autoskill",
+      "pack": "agent-craft-automation",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/autoskill",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fautoskill",
+      "summary": "Mines repeated Screenpipe-captured work patterns, redacts/clusters them, matches existing skills with embeddings, and stages reviewable composition recipes or new-skill drafts for explicit promotion.",
+      "use_when": "When a user explicitly asks to analyze a Screenpipe activity interval, find repeated uncovered workflows, draft a skill from history, or discover composition recipes.",
+      "tags": [
+        "skill-generation",
+        "workflow-mining",
+        "screenpipe",
+        "local-llm",
+        "agent-automation"
+      ],
+      "requirements": "Python 3.10+, httpx, PyYAML, sentence-transformers, Screenpipe daemon/API, and LM Studio or opt-in model credentials. Sensitive activity data requires review; drafts are not auto-promoted.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Live source documents review-gated workflow mining.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/autoskill/SKILL.md"
+      }
+    },
+    {
+      "id": "benchling-integration",
+      "name": "Benchling Integration",
+      "pack": "agent-craft-automation",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/benchling-integration",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fbenchling-integration",
+      "summary": "Concrete Benchling Python SDK/v2 REST workflow for registry entities, DNA imports, inventory audits, ELN/workflow tasks, apps, EventBridge, and warehouse analytics, emphasizing schema IDs, typed payloads, idempotency, read-back, and async failure checks.",
+      "use_when": "For authenticated automation against a real Benchling tenant: sequences, inventory, registry/ELN/workflow records, or event/warehouse integrations where schemas, permissions, IDs, retries, and version boundaries matter.",
+      "tags": [
+        "benchling",
+        "eln",
+        "laboratory-automation",
+        "scientific-data",
+        "python-sdk"
+      ],
+      "requirements": "Python 3.9+, benchling-sdk 1.25.0, network, tenant/API access, URL, OAuth/API credentials; Biopython for FASTA. Verify tenant IDs, schemas, permissions, and endpoint/version availability.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Examples are illustrative; no authenticated tenant run was claimed.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/benchling-integration/SKILL.md"
+      }
+    },
+    {
+      "id": "labarchive-integration",
+      "name": "LabArchives Integration",
+      "pack": "agent-craft-automation",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/labarchive-integration",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Flabarchive-integration",
+      "summary": "LabArchives ELN/Inventory integration guidance covering regional endpoints, HMAC-SHA-512 signing, UID/lab discovery, redacted dry runs, LA-container ZIP inspection, XML/JSON, and guarded read/write workflows.",
+      "use_when": "For planning, validating, authenticating, or safely automating LabArchives ELN/Inventory calls or inspecting local LA containers, especially where ELN and Inventory authentication differ and writes require approval.",
+      "tags": [
+        "labarchives",
+        "electronic-lab-notebook",
+        "scientific-automation",
+        "api-integration",
+        "research-data-provenance"
+      ],
+      "requirements": "Python 3.11+, uv, vendor access key/password, network/API docs; Enterprise/Enterprise Plus and Inventory permissions where needed. Supply secrets through LABARCHIVES_* environment variables or secret manager.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Bundled scripts do not themselves authenticate or perform remote writes.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/labarchive-integration/SKILL.md"
+      }
+    },
+    {
+      "id": "dnanexus-integration",
+      "name": "DNAnexus Integration",
+      "pack": "agent-craft-automation",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/dnanexus-integration",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fdnanexus-integration",
+      "summary": "Reproducible DNAnexus dx CLI/dxpy workflow for projects/files/metadata/apps, dxapp.json validation, jobs/analyses, cost controls, output chaining, workflows, WDL/CWL, and Nextflow imports.",
+      "use_when": "For inspecting, building, automating, monitoring, or safely orchestrating DNAnexus genomics workloads including transfers, applets, workflows, chained jobs, failures, and cost-bound project automation.",
+      "tags": [
+        "genomics",
+        "dnanexus",
+        "cloud-workflows",
+        "dxpy",
+        "bioinformatics"
+      ],
+      "requirements": "DNAnexus account/network, Python 3.11+, dx-toolkit/dxpy. Some features require organization license/policy/region access; billable actions need account testing and approval.",
+      "verification": {
+        "status": "verified",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Commands remain illustrative absent authenticated execution.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/dnanexus-integration/SKILL.md"
+      }
+    },
+    {
+      "id": "pylabrobot",
+      "name": "PyLabRobot",
+      "pack": "agent-craft-automation",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pylabrobot",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fpylabrobot",
+      "summary": "Builds/reviews hardware-agnostic liquid-handling resources, deck models, transfer plans, trackers, offline simulations, validators, and supported backends; defaults to software-only Chatterbox simulation and gates physical runs.",
+      "use_when": "For designing, reviewing, validating, or offline-simulating liquid-handling protocols and deck/tip/volume/contamination/geometry models, or preparing a human-gated plan for a named instrument.",
+      "tags": [
+        "lab-automation",
+        "liquid-handling",
+        "pylabrobot",
+        "offline-simulation",
+        "robotics-safety"
+      ],
+      "requirements": "Python 3.9+ with PyLabRobot 0.2.2; bundled planning CLIs require Python 3.11+. Real hardware needs named backend/device/firmware/deck calibration, trained operator, and explicit approval.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Trackers are bookkeeping, not sensors; no autonomous physical execution.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/pylabrobot/SKILL.md"
+      }
+    },
+    {
+      "id": "ginkgo-cloud-lab",
+      "name": "Ginkgo Cloud Lab",
+      "pack": "agent-craft-automation",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/ginkgo-cloud-lab",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fginkgo-cloud-lab",
+      "summary": "Maps experiment goals to Ginkgo Cloud Lab protocols, sample/plate inputs, readouts, estimates/quotes, and authorized storefront ordering, while separating estimates, cart, accepted order, execution, and QC.",
+      "use_when": "For mapping protein/RNA/assay objectives to Cloud Lab protocols, preparing manifests, checking pricing/turnaround, or guiding a human through storefront ordering without inventing an API action.",
+      "tags": [
+        "remote-lab",
+        "biotech-protocols",
+        "robotic-experimentation",
+        "assay-planning"
+      ],
+      "requirements": "Network/browser; account may be needed. No public submission API, SDK, or CLI contract was identified; ordering is authorized storefront work and prices/availability must be rechecked.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Do not claim submission, payment, execution, or QC occurred.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/ginkgo-cloud-lab/SKILL.md"
+      }
+    },
+    {
+      "id": "fictiv",
+      "name": "Fictiv",
+      "pack": "agent-craft-automation",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/fictiv",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Ffictiv",
+      "summary": "Browser-operated CAD-to-manufacturing workflow for preflight, upload, process/material/finish/tolerance configuration, DFM review, quote/lead-time comparison, checkout, tracking, reorders, and troubleshooting.",
+      "use_when": "When a user with an authenticated Fictiv account wants to quote, configure, troubleshoot, order, track, or reorder custom manufactured CAD parts.",
+      "tags": [
+        "manufacturing",
+        "cad",
+        "dfm",
+        "browser-automation",
+        "procurement"
+      ],
+      "requirements": "Network/browser with already-authenticated Fictiv account. User authorization required for quotes, sharing, checkout, payment, or commitments. Optional CAD preflight uses Python 3.10+ standard library.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "No public customer API is documented; do not reverse engineer private calls.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/fictiv/SKILL.md"
+      }
+    },
+    {
+      "id": "datalad",
+      "name": "DataLad",
+      "pack": "agent-craft-automation",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/datalad",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fdatalad",
+      "summary": "Practical DataLad/git-annex workflow for large versioned research datasets: selective retrieval, subdatasets, provenance-capturing run/rerun, containers, safe dropping, and publishing Git plus annex remotes.",
+      "use_when": "For cloning/consuming DataLad datasets, resolving annex pointers, capturing rerunnable provenance, coordinating Git/annex storage, or deciding if DataLad is warranted.",
+      "tags": [
+        "scientific-data",
+        "git-annex",
+        "reproducibility",
+        "dataset-provenance",
+        "research-automation"
+      ],
+      "requirements": "Python 3.10+, DataLad 1.6.5, Git, git-annex 10.x; remote services may require network/credentials. Containers need Singularity/Apptainer/Docker; Git identity required to save history.",
+      "verification": {
+        "status": "verified",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Source warns clone can leave annex pointers unfetched; use get/status/whereis.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/datalad/SKILL.md"
+      }
+    },
+    {
+      "id": "arbor",
+      "name": "Arbor",
+      "pack": "agent-craft-automation",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/arbor",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Farbor",
+      "summary": "Hypothesis Tree Refinement for auditable long-horizon optimization: a coordinator keeps persistent evidence, isolated worktrees test falsifiable changes, insights propagate, and held-out evaluation gates merges.",
+      "use_when": "For improving a runnable git-tracked artifact through measurable experiments with dev/test evaluators, frozen metrics, isolated hypothesis trials, and a held-out merge gate.",
+      "tags": [
+        "hypothesis-tree-refinement",
+        "autonomous-optimization",
+        "experiment-orchestration",
+        "held-out-evaluation",
+        "agent-harnesses"
+      ],
+      "requirements": "Python 3.10+ state manager, Git/worktrees, runnable artifact, measurable objective, repeatable dev and defensible held-out evaluator. Optional model calls require credentials/network.",
+      "verification": {
+        "status": "verified",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Helper records state/scores but does not run evaluators, create worktrees, or merge.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/arbor/SKILL.md"
+      }
+    },
+    {
+      "id": "get-available-resources",
+      "name": "Get Available Resources",
+      "pack": "agent-craft-automation",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/get-available-resources",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fget-available-resources",
+      "summary": "Creates a privacy-redacted JSON snapshot of current-process CPU, memory, disk, cgroup/container, scheduler, and accelerator observations, plus conservative planning/diff/diagnostic helpers.",
+      "use_when": "Before a resource-sensitive workload or when planning workers/memory in containers, Slurm, or heterogeneous hosts without assuming visible hardware is usable.",
+      "tags": [
+        "resource-planning",
+        "containers",
+        "slurm",
+        "accelerators",
+        "privacy"
+      ],
+      "requirements": "Python 3.11+ on Linux/macOS/Windows; optional psutil and read-only GPU-management CLIs. No credentials. Worker counts are estimates, not reservations.",
+      "verification": {
+        "status": "verified",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Explicitly prohibits stress, allocation, writes, resets, configuration changes, and raw host identifiers.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/get-available-resources/SKILL.md"
+      }
+    },
+    {
+      "id": "generate-image",
+      "name": "Generate Image",
+      "pack": "visual-creative-lab",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/generate-image",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fgenerate-image",
+      "summary": "Model-aware OpenRouter Image API CLI for generating/editing illustrations, concepts, photos, logos/vectors, and composites with capability preflight, dry run, reference images, model-specific controls, retries, and provenance-conscious output handling.",
+      "use_when": "For generated/edited assets such as scientific concept illustrations, poster heroes, photorealistic scenes, logos, transparent assets, or multi-reference composites; not diagrams or evidence figures.",
+      "tags": [
+        "image-generation",
+        "scientific-visuals",
+        "openrouter",
+        "image-editing",
+        "reproducibility"
+      ],
+      "requirements": "Python 3.9+, network, bundled CLI; paid generation needs OPENROUTER_API_KEY. Reference images upload to OpenRouter; do not send sensitive/embargoed material.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Generated images are illustrations, not measured scientific evidence.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/generate-image/SKILL.md"
+      }
+    },
+    {
+      "id": "infographics",
+      "name": "Infographics",
+      "pack": "visual-creative-lab",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/infographics",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Finfographics",
+      "summary": "Generates/reviews raster infographic drafts with ten layout types, style presets, accessible palettes, optional research, versioned PNGs, and review logs using documented OpenRouter models.",
+      "use_when": "For composed visual narratives from supplied research: data summaries, timelines, comparisons, processes, lists, geographic/hierarchical explanations, or marketing visuals; route technical diagrams elsewhere.",
+      "tags": [
+        "infographics",
+        "visualization",
+        "research-integrity",
+        "image-generation",
+        "accessibility"
+      ],
+      "requirements": "Python 3.10+, requests, network, OPENROUTER_API_KEY; paid calls for generation/review/research. Human factual, visual, alt-description, and long-description review remains required.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Not for exact geometry/boundaries or verified factual/chart claims without separate validation.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/infographics/SKILL.md"
+      }
+    },
+    {
+      "id": "latex-posters",
+      "name": "LaTeX Posters",
+      "pack": "visual-creative-lab",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/latex-posters",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Flatex-posters",
+      "summary": "Reproducible LaTeX research-poster workflow: choose poster class, adapt content, integrate/inspect figures, compile one-page PDF, and run font/raster/PPI/preflight checks.",
+      "use_when": "For editable conference posters, institutional LaTeX templates, multi-column scientific figures, or print PDF dimension/font/raster validation.",
+      "tags": [
+        "latex",
+        "academic-posters",
+        "scientific-visualization",
+        "pdf-preflight"
+      ],
+      "requirements": "LaTeX distro, selected class, Poppler tools. Optional AI schematic tooling requires Python/requests/network/OPENROUTER_API_KEY and must not invent scientific charts/results.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Preflight does not certify accessibility, PDF/X, scientific correctness, or overlap-free output.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/latex-posters/SKILL.md"
+      }
+    },
+    {
+      "id": "pptx-posters",
+      "name": "PPTX Posters",
+      "pack": "visual-creative-lab",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pptx-posters",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fpptx-posters",
+      "summary": "Strict manifest-driven pipeline that generates/audits editable macro-free one-slide PowerPoint scientific posters from approved local JSON/assets, with provenance, accessibility metadata, package-security, DPI, contrast, and export checks.",
+      "use_when": "When the deliverable is specifically an editable PowerPoint research/conference poster where physical dimensions, printer rules, provenance, accessibility, and package security matter.",
+      "tags": [
+        "powerpoint",
+        "scientific-posters",
+        "accessibility",
+        "provenance",
+        "document-security"
+      ],
+      "requirements": "Python 3.10+, uv, python-pptx 1.0.2, Pillow 12.3.0, lxml 6.1.3; approved local JSON and hashed assets. Rendering/accessibility/PDF/printer proof remain manual.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Fails closed on unresolved content, unsafe packages, unsupported macros/links, or layout/DPI/contrast blockers.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/pptx-posters/SKILL.md"
+      }
+    },
+    {
+      "id": "scientific-visualization",
+      "name": "Scientific Visualization",
+      "pack": "visual-creative-lab",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/scientific-visualization",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fscientific-visualization",
+      "summary": "Scientific-figure workflow for honest chart encoding, uncertainty/missingness, accessibility, provenance, metadata inspection, journal export planning, and static/interactive output separation, with concrete plotting examples.",
+      "use_when": "For creating, auditing, or exporting publication, web, slide, or poster figures where scientific meaning, uncertainty, missingness, accessibility, or journal requirements matter.",
+      "tags": [
+        "scientific-visualization",
+        "publication-figures",
+        "uncertainty",
+        "accessibility",
+        "matplotlib"
+      ],
+      "requirements": "Python 3.11+, uv; Matplotlib/Pillow/pypdf as needed; Plotly static export needs Chrome/Chromium plus Kaleido. Preserve data/transforms/exclusions/seeds and verify publisher rules live.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Does not certify scientific validity, accessibility, or publisher acceptance.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/scientific-visualization/SKILL.md"
+      }
+    },
+    {
+      "id": "cellprofiler",
+      "name": "CellProfiler",
+      "pack": "visual-creative-lab",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/cellprofiler",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fcellprofiler",
+      "summary": "Reproducible CellProfiler workflow for bounded 2D grayscale TIFF microscopy: manifests, nuclei pipeline, headless batch execution, measurements, CSV exports, segmentation overlays, checksums, and QC JSON.",
+      "use_when": "For repeatable 2D single-plane grayscale TIFF nuclear assays requiring segmentation/counts, per-object intensity measures, batch processing, and visual QC overlays.",
+      "tags": [
+        "microscopy",
+        "image-segmentation",
+        "cellprofiler",
+        "fluorescence-analysis"
+      ],
+      "requirements": "Python 3.12+ with numpy/tifffile helpers plus separate CellProfiler 4.2.8 app/container for runs. Inputs restricted to uint8/uint16 black-is-zero TIFFs; actual engine run not verified here.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Do not silently apply to z-stacks, RGB/float, volumetric, or tissue-specific workflows.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/cellprofiler/SKILL.md"
+      }
+    },
+    {
+      "id": "histolab",
+      "name": "HistoLab",
+      "pack": "visual-creative-lab",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/histolab",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fhistolab",
+      "summary": "Whole-slide histology workflow for WSI metadata, tissue masking, random/grid/score tiling, H&E preprocessing, previews/QC, and leakage-aware patch-dataset preparation.",
+      "use_when": "For inspecting pyramidal slides, choosing physical resolution/masks, previewing/extracting tissue tiles, or preparing reproducible pathology patch datasets; never for diagnosis.",
+      "tags": [
+        "whole-slide-imaging",
+        "histopathology",
+        "tiling",
+        "tissue-masking",
+        "medical-ml"
+      ],
+      "requirements": "Linux/macOS, Python 3.8\u20133.11 (tested 3.10), Histolab 0.7.0, OpenSlide, isolated legacy dependency environment. Large downloads and exact-MPP options add dependencies.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Masks/scores are heuristics; no diagnostic or tumor-probability claims.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/histolab/SKILL.md"
+      }
+    },
+    {
+      "id": "geomaster",
+      "name": "GeoMaster",
+      "pack": "visual-creative-lab",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/geomaster",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fgeomaster",
+      "summary": "Geospatial research workflow for vector/raster GIS, remote sensing, CRS/grid alignment, spatial statistics, terrain/network analysis, spatial ML, STAC discovery, COG handling, and provenance.",
+      "use_when": "For scientific GIS involving satellite imagery, raster/vector data, CRS transformations, masking/calibration, terrain, spatial joins/routing, STAC, geospatial ML, or scalable raster storage.",
+      "tags": [
+        "gis",
+        "remote-sensing",
+        "spatial-analysis",
+        "geospatial-ml"
+      ],
+      "requirements": "Core Python 3.12+ workflows use GeoPandas/Rasterio/NumPy/PyProj; optional cloud, desktop, GPU, and service workflows need setup, credentials, and network.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Not a dedicated interactive-map UI; external examples may be illustrative.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/geomaster/SKILL.md"
+      }
+    },
+    {
+      "id": "lab-hardware-cad",
+      "name": "Lab Hardware CAD",
+      "pack": "visual-creative-lab",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/lab-hardware-cad",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Flab-hardware-cad",
+      "summary": "Parametric build123d CAD workflow for lab chips, molds, mounts, adapters, holders, racks, fixtures, arenas, and mazes; exports STEP/STL/DXF and validates interfaces, geometry, clearances, provenance, and snapshots.",
+      "use_when": "For designing, inspecting, or modifying physical laboratory parts that mate with standardized labware, optical hardware, cage systems, or a specified fabrication process.",
+      "tags": [
+        "parametric-cad",
+        "build123d",
+        "lab-hardware",
+        "fabrication",
+        "step-stl-dxf"
+      ],
+      "requirements": "Python 3.11\u20133.14, build123d 0.13.0, matplotlib, trusted/read-reviewed model code. Vendor/fabrication/material/non-geometric properties need human validation.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Does not promise fabrication, FEA/CFD, certification, or vendor compliance.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/lab-hardware-cad/SKILL.md"
+      }
+    },
+    {
+      "id": "scientific-slides",
+      "name": "Scientific Slides",
+      "pack": "visual-creative-lab",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/scientific-slides",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fscientific-slides",
+      "summary": "Research-presentation workflow for conference/seminar/defense/grant decks: story/timing, visual-first design, citations, conceptual generated PDFs, editable PowerPoint/Beamer, original-figure protection, and rendered visual validation.",
+      "use_when": "For turning research content/papers/figures into timed decks requiring coherent narrative, citations, editable PowerPoint/Beamer structure, and render/review; use editable workflows for exact data/equations/templates.",
+      "tags": [
+        "scientific-presentations",
+        "powerpoint",
+        "latex-beamer",
+        "visual-validation",
+        "research-communication"
+      ],
+      "requirements": "Python 3.12+, OpenRouter/requests for optional AI, Pillow/PyMuPDF/pypdf/python-pptx, TeX for Beamer, Node/PptxGenJS, LibreOffice. Generated images are drafts.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "f7a50ed2956fb45e32bd44cc5c713d4f0ac99f93 (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Visual inspection does not establish accessibility or scientific correctness.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/scientific-slides/SKILL.md"
+      }
+    },
+    {
+      "id": "market-research-reports",
+      "name": "Market Research Reports",
+      "pack": "content-audience-growth",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/market-research-reports",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fmarket-research-reports",
+      "summary": "Evidence-traceable market-research workflow for boundaries, source/claim ledgers, top-down/bottom-up TAM/SAM/SOM scenarios, uncertainty-aware forecasts, customer/competitor analysis, unit normalization, and auditable report scaffolds.",
+      "use_when": "For defensible market/audience/category/customer/competitor/sizing/forecast narratives with provenance, particularly TAM/SAM/SOM, source conflicts, competitor matrices, and sensitivity scenarios.",
+      "tags": [
+        "market-research",
+        "evidence-led",
+        "market-sizing",
+        "competitive-analysis",
+        "forecasting"
+      ],
+      "requirements": "Python 3.11+ standard-library offline CLIs; optional XeLaTeX. Online research requires approved network and source terms. Templates validate scaffolds, not underlying evidence.",
+      "verification": {
+        "status": "verified",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Explicitly forbids fabricated citations/figures and unsupported certainty.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/market-research-reports/SKILL.md"
+      }
+    },
+    {
+      "id": "citation-management",
+      "name": "Citation Management",
+      "pack": "content-audience-growth",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/citation-management",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fcitation-management",
+      "summary": "Operational citation workflow for multi-database discovery, identifier metadata, BibTeX formatting/deduplication, DOI/manuscript validation, enrichment, and reproducibility-oriented reporting.",
+      "use_when": "For high-trust research/content requiring discoverable, metadata-complete, deduplicated, consistently formatted references checked against authoritative records.",
+      "tags": [
+        "citations",
+        "bibliography",
+        "bibtex",
+        "metadata-validation",
+        "research"
+      ],
+      "requirements": "Python 3.9+, requests, network, bundled references/scripts. Optional Scholar scraping needs scholarly and is rate-limited; API keys/emails can raise service limits.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Zotero paths are examples, not proof of live library management.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/citation-management/SKILL.md"
+      }
+    },
+    {
+      "id": "literature-review",
+      "name": "Literature Review",
+      "pack": "content-audience-growth",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/literature-review",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fliterature-review",
+      "summary": "Procedural literature-review workflow: scope/eligibility, complementary database search, record/report/study screening, extraction/quality assessment, thematic/quantitative synthesis, citation checks, and Markdown/PDF output.",
+      "use_when": "For systematic, scoping, or narrative reviews; thesis/paper reviews; gap discovery; reproducible searches; screening/evidence extraction; or auditable citation/claim verification.",
+      "tags": [
+        "literature-review",
+        "evidence-synthesis",
+        "research-methods",
+        "citation-verification"
+      ],
+      "requirements": "Python 3.10+ and requests; network for searches/DOI checks. Optional Parallel CLI, Pandoc/TeX, and OpenRouter schematic generation. Human eligibility/appraisal/synthesis judgment required.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Does not automatically complete a systematic review or meta-analysis.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/literature-review/SKILL.md"
+      }
+    },
+    {
+      "id": "clinical-reports",
+      "name": "Clinical Reports",
+      "pack": "content-audience-growth",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/clinical-reports",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fclinical-reports",
+      "summary": "Safety-bounded workflow for reviewable clinical case, diagnostic, trial, CSR, safety, and aggregate-research report structures from synthetic/de-identified/aggregate inputs, with provenance manifests and deterministic checks.",
+      "use_when": "For authorized local preparation of draft clinical-report scaffolds, aggregate safety tables, manifests, and consistency/completeness checks with qualified reviewers retaining all clinical/statistical/privacy/regulatory signoff.",
+      "tags": [
+        "clinical-reporting",
+        "provenance",
+        "safety-bounded",
+        "trial-reporting",
+        "privacy"
+      ],
+      "requirements": "Python 3.11+ for optional local scripts. Inputs must be synthetic/de-identified/aggregate with purpose, authorization, minimum necessary scope, provenance facts, and qualified review owner.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Taxonomy is somewhat clinical-specific, but source is live; drafts are not advice, certification, approval, or submission-ready reports.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/clinical-reports/SKILL.md"
+      }
+    },
+    {
+      "id": "scientific-writing",
+      "name": "Scientific Writing",
+      "pack": "content-audience-growth",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/scientific-writing",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fscientific-writing",
+      "summary": "Scientific-writing workflow using evidence/claim registries, reporting-guideline selection, cross-section consistency and reference checks, authorship/AI disclosure validation, confidentiality controls, and fail-closed local linting.",
+      "use_when": "For drafting, revising, or auditing a manuscript/report where traceable evidence, reporting coverage, reproducibility, integrity safeguards, disclosure, or numeric consistency matters.",
+      "tags": [
+        "scientific-writing",
+        "research-integrity",
+        "evidence-provenance",
+        "reporting-guidelines",
+        "manuscript-audit"
+      ],
+      "requirements": "Core guidance platform-neutral; optional local deterministic Python 3.11+ scripts. Human authors verify sources, claims, policies, authorship, confidentiality, and submission approval.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Does not certify compliance/acceptance or replace accountable authors.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/scientific-writing/SKILL.md"
+      }
+    },
+    {
+      "id": "research-grants",
+      "name": "Research Grants",
+      "pack": "content-audience-growth",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/research-grants",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fresearch-grants",
+      "summary": "Grant-development/review workflow for NSF, NIH, DOE, DARPA, and Taiwan NSTC: govern opportunity, requirement-to-source-to-draft matrix, aims/narrative/budget/timeline/forms, exports, reviewer comments, and resubmission.",
+      "use_when": "For investigator-authored proposal planning, opportunity-specific compliance checks, aims/narratives, budgets/justifications, timelines, multi-institution work, or resubmission critique after identifying live solicitation rules.",
+      "tags": [
+        "grant-writing",
+        "research-funding",
+        "proposal-compliance",
+        "nsf",
+        "nih"
+      ],
+      "requirements": "Network for current official opportunity documents or dated official sources. Optional schematics need OpenRouter. Never invent data/citations/records/commitments/approvals; preserve applicant ownership where policy requires.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Does not prove portal submission, funding availability, or universal agency requirements.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/research-grants/SKILL.md"
+      }
+    },
+    {
+      "id": "peer-review",
+      "name": "Peer Review",
+      "pack": "content-audience-growth",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/peer-review",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fpeer-review",
+      "summary": "Evidence-bounded scientific peer-review workflow for authorized manuscripts/protocols/preprints/proposals: intake policy/authorization, study mapping, reporting guidance, claim/evidence matrices, methods/statistics/reproducibility/ethics, separated channels, scaffolds, and linting.",
+      "use_when": "For authorized human review needing structured draft/audit of claims, statistics/design, reproducibility/ethics, reporting guidance, citations, and actionable major/minor comments without editorial decision.",
+      "tags": [
+        "peer-review",
+        "scientific-methods",
+        "reproducibility",
+        "research-ethics",
+        "statistics"
+      ],
+      "requirements": "Python 3.11+ standard library plus bundled assets. Valid READY_FOR_LOCAL_REVIEW intake, venue confidentiality/AI-policy checks, human accountability, external-service prohibition, and retention plan are mandatory.",
+      "verification": {
+        "status": "verified",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Local scripts do not make the wider agent session local; no autonomous decision/reproduction/citation verification.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/peer-review/SKILL.md"
+      }
+    },
+    {
+      "id": "paperclip",
+      "name": "Paperclip",
+      "pack": "content-audience-growth",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/paperclip",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fpaperclip",
+      "summary": "GXL Paperclip CLI/Python-SDK workflow for source-scoped biomedical/regulatory/trial/protein retrieval, virtual filesystem reading, full-text grep/scan, SQL metadata, map/reduce extraction, figure questions, and line-pinned citations.",
+      "use_when": "For source-scoped primary scientific/regulatory retrieval, bounded full-text comparison, repeated-field extraction, figure analysis, and citations pinned to exact Paperclip lines.",
+      "tags": [
+        "scientific-research",
+        "regulatory-intelligence",
+        "literature-retrieval",
+        "evidence-citation",
+        "biomedical"
+      ],
+      "requirements": "Network and GXL Paperclip CLI; macOS/Linux installer needs Python 3.8+ and curl/wget. Authentication can use PAPERCLIP_API_KEY/browser/OAuth; availability/quotas/source coverage vary.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Examples are illustrative; bounded/empty results do not prove absence.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/paperclip/SKILL.md"
+      }
+    },
+    {
+      "id": "paperzilla",
+      "name": "Paperzilla",
+      "pack": "content-audience-growth",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/paperzilla",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fpaperzilla",
+      "summary": "Paperzilla pz-CLI integration for project lists, recommendation feeds/search, recommendation/canonical paper details, markdown requests, JSON/Atom export, and feedback curation.",
+      "use_when": "For researchers with a Paperzilla project needing discovery, triage, explanation, export, or curation of recommendations and linked canonical papers.",
+      "tags": [
+        "paper-discovery",
+        "research-curation",
+        "cli-integration",
+        "recommendation-feedback"
+      ],
+      "requirements": "Official pz CLI 0.7.1, network, Paperzilla account and interactive login/session; Go 1.23+ only for source builds. Protect tokenized Atom URLs.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "CLI behavior was mock-tested upstream; markdown may remain pending and anonymous access is not promised.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/paperzilla/SKILL.md"
+      }
+    },
+    {
+      "id": "markdown-mermaid-writing",
+      "name": "Markdown Mermaid Writing",
+      "pack": "content-audience-growth",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/markdown-mermaid-writing",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fmarkdown-mermaid-writing",
+      "summary": "Operational Markdown/Mermaid production: choose template/diagram type, use style/accessibility metadata, render in actual destination, and retain source/rendered outputs plus renderer version; covers 23 diagrams and nine templates.",
+      "use_when": "For Markdown reports, READMEs, research notes, workflow/data/state/schema/relationship diagrams, editable Mermaid with SVG/PNG export, or destination-rendering/accessibility validation.",
+      "tags": [
+        "markdown",
+        "mermaid",
+        "documentation",
+        "diagrams",
+        "accessibility"
+      ],
+      "requirements": "Markdown authoring alone needs no runtime. Rendering uses Mermaid CLI 12.0.0, Node 22.13+, Chromium; install/CDN needs network. Check destination support.",
+      "verification": {
+        "status": "verified",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Use other plotting tools for quantitative charts, uncertainty, exact geometry, or publication figures.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/markdown-mermaid-writing/SKILL.md"
+      }
+    },
+    {
+      "id": "exploratory-data-analysis",
+      "name": "Exploratory Data Analysis",
+      "pack": "data-documents-decisions",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/exploratory-data-analysis",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fexploratory-data-analysis",
+      "summary": "Bounded local read-only EDA for authorized scientific data: capability checks; schema, missingness, leakage, distribution, outlier, and transformation-sensitivity reporting; metadata inspection; and report scaffolds.",
+      "use_when": "Before modeling/confirmatory inference when an authorized local scientific dataset needs safe profiling, anomaly/missingness/leakage diagnostics, sensitivity checks, or reproducible EDA scaffold.",
+      "tags": [
+        "exploratory-data-analysis",
+        "scientific-data",
+        "data-quality",
+        "reproducibility"
+      ],
+      "requirements": "Core CSV/TSV/strict-JSON CLIs use Python 3.11+ standard library; broader inspect stack uses Python 3.12+/uv/packages. Input must be authorized regular local file under explicit root.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Fails closed on URLs, symlinks, special files, unbounded archives, pickle-like inputs, macros, and unsupported/reference formats.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/exploratory-data-analysis/SKILL.md"
+      }
+    },
+    {
+      "id": "statistical-analysis",
+      "name": "Statistical Analysis",
+      "pack": "data-documents-decisions",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/statistical-analysis",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fstatistical-analysis",
+      "summary": "Research-statistics workflow: frame estimand/design, inspect data, select tests, run diagnostics, report effects/uncertainty, and generate reproducible APA-style results across classical/nonparametric/Bayesian methods and power planning.",
+      "use_when": "For choosing/executing tests, checking assumptions, estimating effects/CIs, planning power, evaluating Bayesian alternatives, or writing defensible results; not a substitute for design/causal/independence specialist review.",
+      "tags": [
+        "statistics",
+        "assumption-checking",
+        "effect-sizes",
+        "power-analysis",
+        "bayesian"
+      ],
+      "requirements": "Python 3.12+ with documented Pingouin/SciPy/statsmodels/pandas/matplotlib/seaborn; optional PyMC/ArviZ. Uses uv/local environment and bundled scripts/references.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Numerical screens cannot establish independence or scientific validity.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/statistical-analysis/SKILL.md"
+      }
+    },
+    {
+      "id": "matplotlib",
+      "name": "Matplotlib",
+      "pack": "data-documents-decisions",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/matplotlib",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fmatplotlib",
+      "summary": "Version-pinned Matplotlib guide for object-oriented figures/axes, common/multi-panel/3D plots, styling/annotations, uncertainty/normalization checks, backend selection, and PNG/PDF/SVG export with helpers.",
+      "use_when": "For reproducible static/scientific plots needing precise axes, annotations, multi-panels, shared normalization/colorbars, accessibility-aware style, 3D views, or publication exports.",
+      "tags": [
+        "python",
+        "scientific-visualization",
+        "publication-plots",
+        "matplotlib",
+        "data-analysis"
+      ],
+      "requirements": "Python 3.11+, Matplotlib 3.11.2; NumPy/SciPy examples, optional pandas/ipympl/GUI backend. Batch Agg export needs no GUI; network for installation.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Matplotlib does not infer uncertainty statistics or guarantee external LaTeX/widget environments.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/matplotlib/SKILL.md"
+      }
+    },
+    {
+      "id": "networkx",
+      "name": "NetworkX",
+      "pack": "data-documents-decisions",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/networkx",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fnetworkx",
+      "summary": "NetworkX workflow for graph types/I-O, paths, centrality, PageRank, clustering, connectivity, communities, flows, synthetic networks, visualization, and metrics with edge-weight, missingness, reproducibility, and scale cautions.",
+      "use_when": "For relationship-centric social, biological, transport, citation, knowledge, or dependency data: create graphs, find influential/bridging nodes, communities, routes/flows, topology, synthetic networks, and reproducible outputs.",
+      "tags": [
+        "graph-analysis",
+        "network-science",
+        "centrality",
+        "community-detection",
+        "synthetic-networks"
+      ],
+      "requirements": "Python >=3.12 excluding 3.14.1 and NetworkX 3.7; NumPy/SciPy/pandas/Matplotlib support examples. Large graphs may need sparse/approximate/backend approaches.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Current sandbox Python 3.11 would not meet documented target.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/networkx/SKILL.md"
+      }
+    },
+    {
+      "id": "timesfm-forecasting",
+      "name": "TimesFM Forecasting",
+      "pack": "data-documents-decisions",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/timesfm-forecasting",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Ftimesfm-forecasting",
+      "summary": "TimesFM workflow for regular-grid CSV preparation, zero-shot point/quantile forecasts, optional covariates, rolling/held-out evaluation, baseline comparison, interval diagnostics, provenance, and resource checks.",
+      "use_when": "For ordered temporal data needing reproducible zero-shot forecasts with cadence validation, quantile intervals, covariates, rolling-origin evaluation, and exported model/configuration provenance.",
+      "tags": [
+        "time-series-forecasting",
+        "timesfm",
+        "quantile-forecasts",
+        "covariates",
+        "evaluation"
+      ],
+      "requirements": "Python 3.10+, timesfm 3.0.2, PyTorch, NumPy, pandas, network/cache for checkpoint. Optional XReg needs JAX/scikit-learn; 3.0 weights are non-commercial/non-production; 2.5 is Apache default.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Smoke validation checks mechanics, not forecast accuracy; intervals need calibration.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/timesfm-forecasting/SKILL.md"
+      }
+    },
+    {
+      "id": "usfiscaldata",
+      "name": "US Fiscal Data",
+      "pack": "data-documents-decisions",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/usfiscaldata",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fusfiscaldata",
+      "summary": "No-key U.S. Treasury Fiscal Data REST API workflow for debt, Daily/Monthly Treasury Statements, auctions, rates, exchange rates, savings bonds, and federal receipts/outlays, with filtering/pagination/interpretation safeguards.",
+      "use_when": "For reproducible current U.S. federal-finance data or questions on debt, Treasury statements/balances, auctions, rates, exchange reporting, savings bonds, or receipts/outlays.",
+      "tags": [
+        "u-s-treasury",
+        "fiscal-data",
+        "rest-api",
+        "public-finance",
+        "python"
+      ],
+      "requirements": "Network; no API key. Python examples use Python 3.10+, requests/pandas; R uses httr/jsonlite. Verify endpoint Quick Guides and interpret dataset-specific scales/grains.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Treasury reporting rates are not live trading quotes; endpoint permanence is not guaranteed.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/usfiscaldata/SKILL.md"
+      }
+    },
+    {
+      "id": "what-if-oracle",
+      "name": "What-If Oracle",
+      "pack": "data-documents-decisions",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/what-if-oracle",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fwhat-if-oracle",
+      "summary": "Scenario-planning method that frames decisions with baseline/perturbation/horizon/constraints/evidence, compares favorable/reference/adverse/wildcard/contrarian/second-order branches, and records contingencies/triggers/next evidence.",
+      "use_when": "When a scientific/experimental decision needs uncertainty stress-testing around attrition, transfer, unavailable inputs, competing hypotheses, or constraints, with visible assumptions and decision triggers.",
+      "tags": [
+        "scenario-planning",
+        "research-planning",
+        "decision-analysis",
+        "uncertainty",
+        "contingencies"
+      ],
+      "requirements": "No package/API/network required for qualitative method. Needs decision-linked question and supplied/verified evidence; quantitative/causal claims require explicit inputs/method/design. CC BY-NC-SA 4.0 requires separate commercial license.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Does not estimate causal effects/calibrated probabilities or execute experiments.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/what-if-oracle/SKILL.md"
+      }
+    },
+    {
+      "id": "anndata",
+      "name": "AnnData",
+      "pack": "data-documents-decisions",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/anndata",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fanndata",
+      "summary": "AnnData/scverse data-engineering workflow to create/manipulate annotated matrices, read/write H5AD/Zarr, use sparse/backed I/O, concatenate batches/modalities, align metadata, preserve semantics, and integrate with Scanpy/Muon.",
+      "use_when": "For inspecting, transforming, validating, batch-combining, or persisting annotated matrices, especially large single-cell/multimodal H5AD/Zarr data with alignment and backed-I/O caveats.",
+      "tags": [
+        "anndata",
+        "single-cell",
+        "h5ad",
+        "zarr",
+        "scverse"
+      ],
+      "requirements": "Python 3.12+, anndata 0.13.4; optional dask/lazy extras, openpyxl/loompy/fsspec adapters. Scanpy/Muon are separate dependencies; network for install/remote data.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Does not itself do full biological analysis/GPU training/native 10X ingestion.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/anndata/SKILL.md"
+      }
+    },
+    {
+      "id": "umap-learn",
+      "name": "UMAP-learn",
+      "pack": "data-documents-decisions",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/umap-learn",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fumap-learn",
+      "summary": "UMAP workflow for nonlinear 2D/3D/higher embeddings, supervised/semi-supervised fitting, clustering preprocessing, new-data transforms, densMAP, Parametric UMAP, inverse transforms, AlignedUMAP, and interpretation/leakage cautions.",
+      "use_when": "For nonlinear reduction where neighborhood structure, metric choice, labels, temporal alignment, density preservation, or reusable projection matters; use diagnostics rather than interpreting 2D islands as proof.",
+      "tags": [
+        "dimensionality-reduction",
+        "manifold-learning",
+        "embeddings",
+        "clustering",
+        "scientific-computing"
+      ],
+      "requirements": "Python 3.9+, umap-learn 0.5.12 plus sklearn/numba/pynndescent/numpy/scipy. Optional HDBSCAN/Matplotlib; Parametric UMAP needs TensorFlow/Keras 3.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "densMAP cannot transform unseen data in target version; examples are not TensorFlow runtime tests.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/umap-learn/SKILL.md"
+      }
+    },
+    {
+      "id": "cobrapy",
+      "name": "COBRApy",
+      "pack": "data-documents-decisions",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/cobrapy",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fcobrapy",
+      "summary": "COBRApy workflow for model loading/validation, FBA/pFBA/FVA, gene knockouts, media design, OptGP sampling, production envelopes, gap filling, SBML/JSON/YAML export, and solver cautions.",
+      "use_when": "For constraint-based metabolic-network analysis: flux ranges, knockout screening, media design, feasible-space sampling, production envelopes, or critical gap-filling hypotheses.",
+      "tags": [
+        "systems-biology",
+        "metabolic-engineering",
+        "constraint-based-modeling",
+        "cobrapy"
+      ],
+      "requirements": "Python 3.9+, cobra 0.32.1; GLPK via swiglpk. Optional SciPy/plot tools/hopsy/solvers; remote downloads need network. Record model/version/solver/objective/bounds/tolerances/seed.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Does not infer kinetics, thermodynamics, experimental growth, or flux identifiability.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/cobrapy/SKILL.md"
+      }
+    },
+    {
+      "id": "consciousness-council",
+      "name": "Consciousness Council",
+      "pack": "experimental-delightfully-weird",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/consciousness-council",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fconsciousness-council",
+      "summary": "Structured simulated multi-perspective council for decisions, research planning, trade-offs, and creative challenges: evidence brief, 3\u20136 archetype lenses, separated facts/assumptions/values, conditional synthesis, risks, and next steps.",
+      "use_when": "When a user explicitly requests a council/panel, devil\u2019s-advocate stress test, competing-lens comparison, or structured decision aid under uncertainty.",
+      "tags": [
+        "structured-deliberation",
+        "decision-support",
+        "research-planning",
+        "devils-advocate",
+        "creative-reasoning"
+      ],
+      "requirements": "No bundled code/service/credentials/persistent memory/real experts. Consequential factual claims need external verification or must remain conditional.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Despite its name, it is not consciousness-theory-specific.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/consciousness-council/SKILL.md"
+      }
+    },
+    {
+      "id": "hypothesis-generation",
+      "name": "Hypothesis Generation",
+      "pack": "experimental-delightfully-weird",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/hypothesis-generation",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fhypothesis-generation",
+      "summary": "Evidence-bounded workflow from observations to questions, rival hypotheses, claim types/estimands, discriminating predictions, controls, operationalized measures, designs/analysis, preregistration, and replication\u2014with deterministic validators/scaffolds.",
+      "use_when": "For serious research planning that must generate falsifiable competing explanations and tests while avoiding HARKing, causal overclaiming, and evidence-hypothesis conflation.",
+      "tags": [
+        "scientific-method",
+        "falsification",
+        "causal-inference",
+        "experimental-design",
+        "preregistration"
+      ],
+      "requirements": "Python 3.11+ standard-library bundled CLIs for bounded local JSON/CSV/Markdown. Human/domain review is mandatory for sources, plausibility, ethics, safety, privacy, and regulatory status.",
+      "verification": {
+        "status": "verified",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Does not establish truth/novelty or approve experiments.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/hypothesis-generation/SKILL.md"
+      }
+    },
+    {
+      "id": "experimental-design",
+      "name": "Experimental Design",
+      "pack": "experimental-delightfully-weird",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/experimental-design",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fexperimental-design",
+      "summary": "Pre-data experimental-design skill selecting designs from question/unit/response, generating seeded randomization/DOE layouts, and addressing blocks, controls, clusters, factorial aliasing, response surfaces, plates/batches, replication, pseudoreplication, and adaptation.",
+      "use_when": "For planning studies/trials, assignment, randomized blocks/crossover/split plots/clusters/factorials/response surfaces, plates/batches, or preventing confounding/pseudoreplication before collection.",
+      "tags": [
+        "experimental-design",
+        "randomization",
+        "design-of-experiments",
+        "blocking",
+        "factorial-design"
+      ],
+      "requirements": "Python >=3.12 with numpy 2.5.3, pandas 3.0.6, pydoe 1.5.0; no credentials. Validate feasibility/rank/IDs/blocks/analysis structure; no enrollment concealment or post-collection analysis.",
+      "verification": {
+        "status": "verified",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a1043ef544e3a100c28e70a736b6cf32554d0677 (2026-10-12)",
+        "audited_on": "2026-10-16",
+        "note": "Use statistical-power for size and statistical-analysis after data collection.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/experimental-design/SKILL.md"
+      }
+    },
+    {
+      "id": "13c-metabolic-flux",
+      "name": "13C Metabolic Flux",
+      "pack": "experimental-delightfully-weird",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/13c-metabolic-flux",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2F13c-metabolic-flux",
+      "summary": "13C-MFA workflow using reviewed atom maps/tracer mixtures, mfapy EMU simulation, mass-balanced constrained multistart fitting, and flux-profile diagnostics to estimate feasible intracellular fluxes and identifiability.",
+      "use_when": "For planning/analyzing steady-state 13C isotope-tracing with MDVs/MIDs/isotopomers, validating maps/tracers, fitting pathway fluxes, profiling uncertainty, or deciding if labels constrain flux.",
+      "tags": [
+        "13c-mfa",
+        "isotope-tracing",
+        "metabolic-flux",
+        "identifiability",
+        "atom-mapping"
+      ],
+      "requirements": "Python 3.12, uv, Git, pinned mfapy, NumPy/SciPy/NLopt, reviewed maps/tracer mixtures/measurements/uncertainty/bounds. Local inference uses JSON; no credential.",
+      "verification": {
+        "status": "verified",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Not for nonstationary MFA, unmodeled pools, MS/MS joint distributions, or organism-scale guarantees.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/13c-metabolic-flux/SKILL.md"
+      }
+    },
+    {
+      "id": "alphagenome",
+      "name": "AlphaGenome",
+      "pack": "experimental-delightfully-weird",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/alphagenome",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Falphagenome",
+      "summary": "AlphaGenome workflow to query GRCh38 SNV AVI/Phred/quantiles and feature attributions, inspect tissue/track mechanisms, score variants, compare REF/ALT, run in-silico mutagenesis, and create Atlas deep links.",
+      "use_when": "For research prioritization/mechanistic interpretation of non-coding regulatory, enhancer/promoter/chromatin/splicing/contact-map SNV effects from loci, credible sets, or VCFs; never clinical conclusions.",
+      "tags": [
+        "genomics",
+        "variant-effect-prediction",
+        "non-coding-regulation",
+        "splicing",
+        "functional-genomics"
+      ],
+      "requirements": "Python 3.10+, alphagenome 0.9.0+, network to Google API, free non-commercial API key. GRCh38 hygiene required; Atlas is human SNVs; terms/quotas/model limits apply.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Scores are model predictions, not causality/pathogenicity/diagnosis.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/alphagenome/SKILL.md"
+      }
+    },
+    {
+      "id": "aeon",
+      "name": "Aeon",
+      "pack": "experimental-delightfully-weird",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/aeon",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Faeon",
+      "summary": "scikit-learn-compatible specialized time-series ML toolkit workflow for classification, regression, clustering, forecasting, anomaly detection, segmentation, similarity search, temporal distances, features, benchmarking, and visualization.",
+      "use_when": "For temporal/sequential data where tabular ML is inadequate: classify/regress series, forecast, find motifs/discords, anomalies/change points, cluster, compare elastic distances, or derive features.",
+      "tags": [
+        "time-series",
+        "forecasting",
+        "anomaly-detection",
+        "similarity-search",
+        "scientific-ml"
+      ],
+      "requirements": "Python 3.11\u20133.14, aeon 1.6.0; optional stumpy/TensorFlow/extras. Experimental upstream modules may change; prts conflicts with aeon target NumPy in documented case.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Remote/TensorFlow snippets were illustrative, not independently executed.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/aeon/SKILL.md"
+      }
+    },
+    {
+      "id": "cirq",
+      "name": "Cirq",
+      "pack": "experimental-delightfully-weird",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/cirq",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fcirq",
+      "summary": "Cirq workflow to build, simulate, transform/compile, noise-model, and characterize NISQ circuits, with provider integration patterns, parameter sweeps, and ReCirq-style experiments.",
+      "use_when": "For Python Cirq/Google Quantum AI, NISQ circuit design, noisy/density-matrix simulation, hardware-gateset compilation, randomized benchmarking/XEB, parameter sweeps, or ReCirq organization.",
+      "tags": [
+        "quantum-computing",
+        "cirq",
+        "noise-modeling",
+        "google-quantum-ai",
+        "nisq-experiments"
+      ],
+      "requirements": "Python 3.11+, Cirq 1.7.0 and provider packages. Cloud execution needs provider credentials/network/approved target; Azure is separately Cirq 1.6.1-compatible.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Synthetic local circuits only; hardware examples do not prove QPU access.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/cirq/SKILL.md"
+      }
+    },
+    {
+      "id": "fluidsim",
+      "name": "FluidSim",
+      "pack": "experimental-delightfully-weird",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/fluidsim",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Ffluidsim",
+      "summary": "FluidSim CFD workflow for solver/configuration plans, numerical/resource bound validation, acknowledged dry-run scripts, serial pilots, budgets/CFL/spectra/output diagnostics, and restart compatibility.",
+      "use_when": "For designing, sanity-checking, piloting, analyzing, or safely restarting FluidSim 0.9 pseudospectral CFD, especially NS2D/NS3D with FFT/MPI/resource/output constraints.",
+      "tags": [
+        "computational-fluid-dynamics",
+        "fluidsim",
+        "numerical-validation",
+        "hpc-safety",
+        "pseudospectral"
+      ],
+      "requirements": "Python >=3.11, FluidSim 0.9.0, FluidFFT 0.4.5, pyFFTW 0.15.1; h5py as needed. MPI needs site runtime/ABI/compilers/FFTW libs. No GPU assumed.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Validators do not launch runs/enforce quotas or prove convergence/physical validity.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/fluidsim/SKILL.md"
+      }
+    },
+    {
+      "id": "deepspot-m",
+      "name": "DeepSpot-M",
+      "pack": "experimental-delightfully-weird",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/deepspot-m",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fdeepspot-m",
+      "summary": "Research-only DeepSpot-M workflow mapping 224\u00d7224 H&E tiles at roughly 20\u00d7 to predicted log1p-CPM expression for queried genes across a released protein-coding panel, with tile/whole-slide patterns.",
+      "use_when": "For research-only virtual spatial-expression maps from H&E, marker exploration, morphology pipelines, or cohort/slide atlases when matched spatial assays are unavailable; validate against held-out paired assays.",
+      "tags": [
+        "spatial-transcriptomics",
+        "digital-pathology",
+        "histology",
+        "bioinformatics",
+        "multimodal-ml"
+      ],
+      "requirements": "deepspotm 1.0.0, Python >=3.10, PyTorch, gated authenticated Hugging Face weights; optional CUDA. Whole-slide requires Histolab/OpenSlide/separate Python env; noncommercial licenses/access restrictions apply.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new-discovery",
+        "evidence_type": "live upstream SKILL.md, GitHub directory, and path-specific GitHub commit evidence",
+        "upstream_ref": "a92663a0214b3b9fa1ba6b958284ffd919c00a0c (2026-10-01)",
+        "audited_on": "2026-10-16",
+        "note": "Weights/inference/biological accuracy were not run in evidence review; not clinical/diagnostic.",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/deepspot-m/SKILL.md"
+      }
+    },
+    {
+      "id": "simpy",
+      "name": "SimPy",
+      "pack": "experimental-delightfully-weird",
+      "kind": "new",
+      "source_repository": "K-Dense-AI/scientific-agent-skills",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/simpy",
+      "manus_import_url": "https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FK-Dense-AI%2Fscientific-agent-skills%2Ftree%2Fmain%2Fskills%2Fsimpy",
+      "summary": "Builds, inspects, tests, and analyzes bounded process-based discrete-event simulations with SimPy for queues, production systems, logistics, networks, inventory, and other event-driven systems. Covers resource contention, interrupts, monitoring, independent replications, warm-up, reproducibility, and explicit simulation limits.",
+      "use_when": "Modeling a bounded event-driven system where active entities contend for resources\u2014such as service queues, logistics, production lines, inventory, or network operations\u2014and the work needs reproducible simulation, monitoring, independent replications, and honest limits rather than hand-wavy forecast prose.",
+      "tags": [
+        "simulation",
+        "discrete-event",
+        "simpy",
+        "queues",
+        "operations-research",
+        "logistics",
+        "reproducibility",
+        "resource-modeling"
+      ],
+      "requirements": "Python 3.10+ for the bundled CLI workflow, uv, and SimPy 4.1.2. The upstream skill requires bounded time/entity/event/replication limits and local inputs; no network call or credential is required for the core workflow.",
+      "verification": {
+        "status": "conditional",
+        "description_accuracy": "new",
+        "evidence_type": "direct local review of live upstream SKILL.md after shallow-cloning the canonical repository",
+        "upstream_ref": "a1043ef544e3a100c28e70a736b6cf32554d0677 (2026-10-12)",
+        "audited_on": "2026-10-16",
+        "skill_md_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/main/skills/simpy/SKILL.md",
+        "note": "Current upstream SKILL.md identifies SimPy 4.1.2, Python/uv requirements, bounded-run safeguards, simulation methodology limits, and testing guidance. Conditional only on the documented local Python environment."
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+# Original 50: Evidence Audit Draft
+
+**Audit date:** 2026-10-16
+**Scope:** Compact normalization audit of all original catalog records. Every entry below is retained in `catalog-draft.json`; source-backed summaries replace stale, incomplete, or misleading catalog wording where noted. `verified` means live upstream evidence supports the catalog record; `conditional` means the source is live but its documented runtime, credentials, local assets, or environment constraints govern use.
+
+| # | Original skill | Pack | Evidence status | Description finding | Evidence / update note |
+|---:|---|---|---|---|---|
+| 1 | **Frontend Design** (`frontend-design`) | `design-ui` | `verified` | `needs-update` | Live SKILL.md supports design/implementation guidance; the former description omitted process, responsiveness, motion, and accessibility. Ref: 41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f (2026-09-03) |
+| 2 | **Algorithmic Art** (`algorithmic-art`) | `design-ui` | `conditional` | `accurate` | Frontmatter matches; browser/template assets make execution conditional. Ref: b9e19e6f44773509fbdd7001d77ff41a49a486c1 (2026-04-20) |
+| 3 | **Theme Factory** (`theme-factory`) | `design-ui` | `verified` | `accurate` | Live source explicitly covers 10 themes, slides/docs/reports/HTML, and custom themes. Ref: b9e19e6f44773509fbdd7001d77ff41a49a486c1 (2026-04-20) |
+| 4 | **Canvas Design** (`canvas-design`) | `design-ui` | `verified` | `needs-update` | Former wording omitted the required philosophy/reference step and sparse, visual-first guidance. Ref: ef740771ac901e03fbca3ce4e1c453a96010f30a (2025-12-01) |
+| 5 | **Brand Guidelines** (`brand-guidelines`) | `design-ui` | `verified` | `needs-update` | Source is Anthropic-specific, not a generic arbitrary-company brand-guidelines system. Ref: ef740771ac901e03fbca3ce4e1c453a96010f30a (2025-12-01) |
+| 6 | **Web Artifacts Builder** (`web-artifacts-builder`) | `design-ui` | `conditional` | `needs-update` | Former wording omitted claude.ai target and initialization/bundling workflow. Ref: ef740771ac901e03fbca3ce4e1c453a96010f30a (2025-12-01) |
+| 7 | **Image Enhancer** (`image-enhancer`) | `design-ui` | `verified` | `accurate` | Live source confirms core functions and broader output use cases. Ref: 044d48b594f060c164f3b20fac9ea01374721bca (2025-10-17) |
+| 8 | **Slack GIF Creator** (`slack-gif-creator`) | `design-ui` | `conditional` | `accurate` | Live source and requirements.txt confirm documented generators and validators. Ref: b9e19e6f44773509fbdd7001d77ff41a49a486c1 (2026-04-20) |
+| 9 | **React Native Skills** (`react-native-skills`) | `design-ui` | `verified` | `accurate` | Current directory includes SKILL.md, AGENTS.md, metadata, and rules. Ref: 757ccb42a20478be6b7284088978070358b52d5e (2026-01-27) |
+| 10 | **PPTX (Presentation Design)** (`pptx-presentation-design`) | `design-ui` | `conditional` | `needs-update` | Former wording omitted extraction, validation, visual QA, chart, conversion, and .potx scope. Ref: fa0fa64bdc967915dc8399e803be67759e1e62b8 (2026-07-17) |
+| 11 | **Test-Driven Development** (`test-driven-development`) | `developer-coding` | `verified` | `accurate` | Live source documents failure/pass verification, full-suite execution, and limited exceptions. Ref: 5bf4e78011075bcfc0dc295f0724994cd123ee71 (2026-09-19) |
+| 12 | **Systematic Debugging** (`systematic-debugging`) | `developer-coding` | `verified` | `accurate` | Current four-phase process includes evidence gates and support techniques. Ref: bb92a77741419a4ab5f06e711a283343f1ada0c3 (2026-10-10) |
+| 13 | **Receiving Code Review** (`receiving-code-review`) | `developer-coding` | `verified` | `accurate` | Source additionally specifies GitHub thread reply handling and staged response patterns. Ref: 3fb75974186ea7fada621d8ab77b3b02169baf57 (2026-07-24) |
+| 14 | **Requesting Code Review** (`requesting-code-review`) | `developer-coding` | `verified` | `accurate` | Live source defines mandatory/optional review points and severity follow-up. Ref: bb92a77741419a4ab5f06e711a283343f1ada0c3 (2026-10-10) |
+| 15 | **React Best Practices** (`react-best-practices`) | `developer-coding` | `verified` | `accurate` | Catalog core scope is accurate but source adds eight categorized rulesets. Ref: 805687f34e8c10b420e3d11335a0ca2c3c90d992 (2026-04-14) |
+| 16 | **WebApp Testing** (`webapp-testing`) | `developer-coding` | `conditional` | `needs-update` | Former wording omitted browser logs, DOM reconnaissance, Python scripts, and multi-server helper. Ref: ef740771ac901e03fbca3ce4e1c453a96010f30a (2025-12-01) |
+| 17 | **Developer Growth Analysis** (`developer-growth-analysis`) | `developer-coding` | `conditional` | `needs-update` | Former wording omitted Claude Code history path and automatic Slack delivery. Ref: 3a887c7b8db6366343b4edc3a892f69afd45423f (2025-11-10) |
+| 18 | **Finishing a Development Branch** (`finishing-a-development-branch`) | `developer-coding` | `conditional` | `accurate` | Live source is applicable only inside a tested Git development context. Ref: b36e0829c6d0140e93cfef2ca599b1b07d4a7797 (2026-08-12) |
+| 19 | **Composition Patterns** (`composition-patterns`) | `developer-coding` | `conditional` | `misleading` | Former description was too broad; source is specifically React component composition. Ref: a5343bd997c4cc4d8bf2ca61021bdc74b4d6c9d5 (2026-01-28) |
+| 20 | **Claude API** (`claude-api`) | `developer-coding` | `conditional` | `needs-update` | Former wording materially understated scope. Ref: dbd4588f9e1033efb41dad4bef2f7947c8993d44 (2026-10-09) |
+| 21 | **Dispatching Parallel Agents** (`dispatching-parallel-agents`) | `productivity-workflow` | `conditional` | `needs-update` | Removed unsupported promise that it “massively speeds up” broad work. Ref: 6dbbbda3baeff8407f3dddb0cc9e8a9495a273bc (2026-07-24) |
+| 22 | **Executing Plans** (`executing-plans`) | `productivity-workflow` | `verified` | `misleading` | Former wording incorrectly framed it as a separate-session per-task review workflow. Ref: 5bf4e78011075bcfc0dc295f0724994cd123ee71 (2026-09-19) |
+| 23 | **Writing Plans** (`writing-plans`) | `productivity-workflow` | `verified` | `accurate` | Live source adds concrete file/interface/TDD-oriented plan conventions. Ref: 8ca22dba9a94f28898bbce59f2537ff4d87c747d |
+| 24 | **File Organizer** (`file-organizer`) | `productivity-workflow` | `conditional` | `needs-update` | Former wording overstated automation and omitted approval before destructive work. Ref: 044d48b594f060c164f3b20fac9ea01374721bca (2025-10-17) |
+| 25 | **Invoice Organizer** (`invoice-organizer`) | `productivity-workflow` | `conditional` | `accurate` | Live source confirms field extraction, preservation, approval, CSV, and duplicate handling. Ref: 044d48b594f060c164f3b20fac9ea01374721bca (2025-10-17) |
+| 26 | **Meeting Insights Analyzer** (`meeting-insights-analyzer`) | `productivity-workflow` | `conditional` | `accurate` | Current source specifies file formats, timestamps, comparative trends, and concrete analysis dimensions. Ref: 044d48b594f060c164f3b20fac9ea01374721bca (2025-10-17) |
+| 27 | **Internal Comms** (`internal-comms`) | `productivity-workflow` | `verified` | `accurate` | Live source scope matches catalog and examples/ requirement. Ref: b9e19e6f44773509fbdd7001d77ff41a49a486c1 (2026-04-20) |
+| 28 | **Tailored Resume Generator** (`tailored-resume-generator`) | `productivity-workflow` | `verified` | `accurate` | Live source confirms truthful substantiation, ATS safety, gap analysis, and iteration. Ref: d78e10c8747951904e6fa0544e449a6363d4753b (2026-01-11) |
+| 29 | **Brainstorming** (`brainstorming`) | `productivity-workflow` | `verified` | `needs-update` | Former wording omitted playback, sizing, visual/spike options, and hard approval gate. Ref: bb92a77741419a4ab5f06e711a283343f1ada0c3 (2026-10-10) |
+| 30 | **Subagent-Driven Development** (`subagent-driven-development`) | `productivity-workflow` | `conditional` | `needs-update` | Former wording omitted per-task implementer/reviewer and final-review workflow. Ref: 5bf4e78011075bcfc0dc295f0724994cd123ee71 (2026-09-19) |
+| 31 | **Content Research Writer** (`content-research-writer`) | `research-data` | `conditional` | `accurate` | Live source documents collaborative multi-stage writing workflow. Ref: 044d48b594f060c164f3b20fac9ea01374721bca (2025-10-17) |
+| 32 | **Competitive Ads Extractor** (`competitive-ads-extractor`) | `research-data` | `conditional` | `accurate` | Live source adds screenshots, categorization, patterns, planning, and trend tracking. Ref: 044d48b594f060c164f3b20fac9ea01374721bca (2025-10-17) |
+| 33 | **Lead Research Assistant** (`lead-research-assistant`) | `research-data` | `verified` | `accurate` | Live source confirms ICP signals, roles, tailored value propositions, and scoring. Ref: 044d48b594f060c164f3b20fac9ea01374721bca (2025-10-17) |
+| 34 | **Twitter Algorithm Optimizer** (`twitter-algorithm-optimizer`) | `research-data` | `verified` | `accurate` | Live source matches documented Twitter-specific scope. Ref: da5363b72cd17573823a696b53b4e8f437458df3 (2026-01-21) |
+| 35 | **XLSX (Advanced Spreadsheet Manipulation)** (`xlsx-advanced-spreadsheet-manipulation`) | `research-data` | `conditional` | `needs-update` | Former wording omitted formats, model inspection, recalculation, and non-trigger cases. Ref: fa0fa64bdc967915dc8399e803be67759e1e62b8 (2026-07-17) |
+| 36 | **PDF (Advanced Document Manipulation)** (`pdf-advanced-document-manipulation`) | `research-data` | `conditional` | `needs-update` | Former wording omitted PDF creation/image extraction and dependencies. Ref: 4e6907a33c3c0c9ce7c1836980546aaba78a34b5 (2026-02-04) |
+| 37 | **DOCX (Word Document Generation)** (`docx-word-document-generation`) | `research-data` | `conditional` | `needs-update` | Former wording omitted .dotx, comments/images, analysis, validation/rendering, and runtime requirements. Ref: fa0fa64bdc967915dc8399e803be67759e1e62b8 (2026-07-17) |
+| 38 | **Video Downloader** (`video-downloader`) | `research-data` | `conditional` | `accurate` | Source confirms quality/formats/output path and playlist default. Ref: c38a0c89def5f96b2fcd6ddfc5ee2fe0e032815c (2025-12-29) |
+| 39 | **Domain Name Brainstormer** (`domain-name-brainstormer`) | `research-data` | `verified` | `accurate` | Live source does not document a registrar or availability API integration. Ref: 044d48b594f060c164f3b20fac9ea01374721bca (2025-10-17) |
+| 40 | **Doc Coauthoring** (`doc-coauthoring`) | `research-data` | `verified` | `needs-update` | Former wording added unsupported voice/long-form claim and omitted staged reader-testing scope. Ref: 00756142ab04c82a447693cf373c4e0c554d1005 (2025-12-04) |
+| 41 | **Deploy to Vercel** (`deploy-to-vercel`) | `security-devops` | `conditional` | `needs-update` | Former wording omitted preview default, linking/state, team/CLI, and fallback workflow. Ref: aed32ad7664596a5bbb7263659acdbe461f8929c (2026-03-06) |
+| 42 | **Vercel CLI with Tokens** (`vercel-cli-with-tokens`) | `security-devops` | `conditional` | `needs-update` | Former wording omitted domains/log inspection, preview default, token safeguards, and Stripe section. Ref: 77a6a14899999ebedc2521e1606bf1ca4a02e256 (2026-04-17) |
+| 43 | **Using Git Worktrees** (`using-git-worktrees`) | `security-devops` | `verified` | `needs-update` | Former wording omitted isolation/submodule/consent/ignore safety and baseline setup. Ref: bc868020bbcec32bbaf9d6b51fa0538dba0b487f (2026-07-24) |
+| 44 | **Verification Before Completion** (`verification-before-completion`) | `security-devops` | `verified` | `accurate` | Live source rejects assumptions, partial/prior runs, and unverified success reports. Ref: 3be5aad3dd2400ef23b15680969f4bcd3b6d7b8b (2026-07-24) |
+| 45 | **Skill Creator (Anthropic)** (`skill-creator-anthropic`) | `security-devops` | `conditional` | `accurate` | Current source is broader than catalog but description remains accurate. Ref: b0cbd3df1533b396d281a6886d5132f623393a9c (2026-03-06) |
+| 46 | **Skill Creator (Composio)** (`skill-creator-composio`) | `security-devops` | `verified` | `needs-update` | Former wording omitted update, initialization, packaging, validation, and feedback iteration. Ref: 5380239b724883543db9e9e2de56c4dd8796090d (2025-10-22) |
+| 47 | **MCP Builder (Anthropic)** (`mcp-builder-anthropic`) | `security-devops` | `conditional` | `accurate` | Live source confirms language and quality/evaluation scope. Ref: ef740771ac901e03fbca3ce4e1c453a96010f30a (2025-12-01) |
+| 48 | **MCP Builder (Composio)** (`mcp-builder-composio`) | `security-devops` | `conditional` | `needs-update` | Former wording understated phased development, research, testing, and evaluation. Ref: 5380239b724883543db9e9e2de56c4dd8796090d (2025-10-22) |
+| 49 | **Writing Skills** (`writing-skills`) | `security-devops` | `conditional` | `accurate` | Live source supports authoring/editing/verification with a TDD prerequisite. Ref: 5bf4e78011075bcfc0dc295f0724994cd123ee71 (2026-09-19) |
+| 50 | **Using Superpowers** (`using-superpowers`) | `security-devops` | `conditional` | `needs-update` | Former wording omitted actions, requested skills, harness adaptation, announcement, and explicit subagent exception. Ref: 5bf4e78011075bcfc0dc295f0724994cd123ee71 (2026-09-19) |
+
+## Catalog completion
+
+The discovery list contained one rejected candidate: **`kds-folklore-variant-evidence`**. Live evidence identified it as a clinical-genomics/ClinGen variant-evidence MCP skill, not the proposed folklore-analysis skill, so it was excluded rather than misrepresented. It was replaced after an independent direct source review with **[SimPy](https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/simpy)**: a bounded, reproducible discrete-event simulation workflow. The finalized catalog therefore contains **100 source-evidenced skills**: all 50 originals plus 50 new selections.
+
+## Source normalization note
+
+All included new records use the canonical live repository **`K-Dense-AI/scientific-agent-skills`**. The submitted `K-Dense-AI/claude-scientific-skills` links were documented as working redirects/aliases but were not retained as canonical catalog metadata.
+
+## Original status count
+
+- **verified:** 23
+- **conditional:** 27
+- **failed/rejected originals:** 0
