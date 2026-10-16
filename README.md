@@ -2,7 +2,7 @@
 
 > **100 source-checked Manus and Claude-compatible skills, organized into 10 selectable packs—with direct source links and one-click Manus install URLs.**
 
-[Open the interactive browser](https://big-face-paper-chase.github.io/manus-skills-packs/) · [Browse machine-readable catalog](./catalog/skills.json) · [Read installation notes](./docs/INSTALL.md) · [Review original-50 audit](./docs/audits/original-50-audit.md)
+[Browse the interactive browser source](./browser/README.md) · [Browse machine-readable catalog](./catalog/skills.json) · [Read installation notes](./docs/INSTALL.md) · [Review original-50 audit](./docs/audits/original-50-audit.md)
 
 ## What this is
 
