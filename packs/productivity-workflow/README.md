@@ -1,60 +1,22 @@
-# ⚡ Productivity & Workflow Pack
+# 03 — Productivity & Workflow
 
-*For operators who want to automate the boring stuff and scale their output.*
+> Planning, collaboration, communication, file organization, and agent-workflow practices.
 
-This pack turns your AI agent into a high-leverage chief of staff. It includes skills for parallelizing tasks, organizing messy file systems, analyzing meeting transcripts, and executing complex multi-step plans without losing context.
+**10 skills · [Back to the Field Manual](../../README.md) · [Installation notes](../../docs/INSTALL.md)**
 
-## The Skills
+| Skill | What it does | Source check | Quick actions |
+|---|---|---|---|
+| **Dispatching Parallel Agents** | Guides delegation of genuinely independent problem domains to isolated agents: assess independence, write focused self-contained prompts, dispatch concurrently, then review, conflict-check, and verify outputs. | Environment-dependent | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fobra%2Fsuperpowers%2Ftree%2Fmain%2Fskills%2Fdispatching-parallel-agents) · [Source](https://github.com/obra/superpowers/tree/main/skills/dispatching-parallel-agents) |
+| **Executing Plans** | Executes a written implementation plan inline in the current session, task by task, with TDD/verification gates, a progress ledger, continuous execution, and one fresh-context whole-branch review at the end. | Live source checked | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fobra%2Fsuperpowers%2Ftree%2Fmain%2Fskills%2Fexecuting-plans) · [Source](https://github.com/obra/superpowers/tree/main/skills/executing-plans) |
+| **Writing Plans** | Creates a detailed, testable implementation plan from a spec before coding: maps files/interfaces, decomposes independently verifiable steps, specifies tests/commands, adds constraints/review checks, then saves under docs/superpowers/plans by default. | Live source checked | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fobra%2Fsuperpowers%2Ftree%2Fmain%2Fskills%2Fwriting-plans) · [Source](https://github.com/obra/superpowers/tree/main/skills/writing-plans) |
+| **File Organizer** | Guides organization of a selected local directory: inspect structure/types, identify exact/name-based duplicates, propose folders/names, then after approval move/rename while logging changes; includes archive and maintenance guidance. | Environment-dependent | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FComposioHQ%2Fawesome-claude-skills%2Ftree%2Fmaster%2Ffile-organizer) · [Source](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/file-organizer) |
+| **Invoice Organizer** | Organizes invoice/receipt files by extracting vendor, date, invoice number, amount, and description; proposes standard names, sorts copies by vendor/category/date/tax, produces CSV summaries, preserves originals, and flags incomplete/duplicate records. | Environment-dependent | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FComposioHQ%2Fawesome-claude-skills%2Ftree%2Fmaster%2Finvoice-organizer) · [Source](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/invoice-organizer) |
+| **Meeting Insights Analyzer** | Analyzes local meeting transcripts to identify communication/facilitation patterns—conflict avoidance, speaking ratios, interruptions, filler words, listening, clarity, and decision making—with timestamped examples, trends, strengths, and actions. | Environment-dependent | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FComposioHQ%2Fawesome-claude-skills%2Ftree%2Fmaster%2Fmeeting-insights-analyzer) · [Source](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/meeting-insights-analyzer) |
+| **Internal Comms** | Guidance and examples for 3P updates, newsletters, FAQs, status/leadership/project updates, and incident reports. Selects the matching examples/ guide for formatting, tone, and content-gathering instructions. | Live source checked | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fanthropics%2Fskills%2Ftree%2Fmain%2Fskills%2Finternal-comms) · [Source](https://github.com/anthropics/skills/tree/main/skills/internal-comms) |
+| **Tailored Resume Generator** | Maps a supplied job description to substantiated candidate experience and produces an ATS-oriented tailored resume with prioritized skills, quantified achievements, formatting guidance, gap analysis, and interview/cover-letter recommendations. | Live source checked | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FComposioHQ%2Fawesome-claude-skills%2Ftree%2Fmaster%2Ftailored-resume-generator) · [Source](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/tailored-resume-generator) |
+| **Brainstorming** | Use before non-trivial new work to clarify intent, goals, constraints, success criteria, context, and choices through question-led conversation, playback, sizing, optional visuals/spikes, and explicit approval before building. | Live source checked | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fobra%2Fsuperpowers%2Ftree%2Fmain%2Fskills%2Fbrainstorming) · [Source](https://github.com/obra/superpowers/tree/main/skills/brainstorming) |
+| **Subagent-Driven Development** | Executes a plan by dispatching a fresh implementer for each mostly independent task, running specification/quality review after each, then a broad final review; uses isolated worktree, ledger, continuous execution, and bounded fix/re-review loops. | Environment-dependent | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fobra%2Fsuperpowers%2Ftree%2Fmain%2Fskills%2Fsubagent-driven-development) · [Source](https://github.com/obra/superpowers/tree/main/skills/subagent-driven-development) |
 
-### 1. Dispatching Parallel Agents
-**Source:** `obra/superpowers`
-**Description:** Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies. Massively speeds up broad research or repetitive coding tasks.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/obra/superpowers/tree/main/skills/dispatching-parallel-agents`
+## Before installing
 
-### 2. Executing Plans
-**Source:** `obra/superpowers`
-**Description:** Use when you have a written implementation plan to execute in a separate session with review checkpoints. Keeps the agent focused on the long-term goal.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/obra/superpowers/tree/main/skills/executing-plans`
-
-### 3. Writing Plans
-**Source:** `obra/superpowers`
-**Description:** Use when you have a spec or requirements for a multi-step task, before touching code. Forces the agent to think through architecture and edge cases first.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/obra/superpowers/tree/main/skills/writing-plans`
-
-### 4. File Organizer
-**Source:** `ComposioHQ/awesome-claude-skills`
-**Description:** Intelligently organizes your files and folders across your computer by understanding context, finding duplicates, suggesting better structures, and automating cleanup tasks.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/ComposioHQ/awesome-claude-skills/tree/master/file-organizer`
-
-### 5. Invoice Organizer
-**Source:** `ComposioHQ/awesome-claude-skills`
-**Description:** Automatically organizes invoices and receipts for tax preparation by reading messy files, extracting key information, renaming them consistently, and sorting them.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/ComposioHQ/awesome-claude-skills/tree/master/invoice-organizer`
-
-### 6. Meeting Insights Analyzer
-**Source:** `ComposioHQ/awesome-claude-skills`
-**Description:** Analyzes meeting transcripts and recordings to uncover behavioral patterns, communication insights, and actionable feedback.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/ComposioHQ/awesome-claude-skills/tree/master/meeting-insights-analyzer`
-
-### 7. Internal Comms
-**Source:** `anthropics/skills`
-**Description:** A set of resources to help write all kinds of internal communications (status reports, leadership updates, FAQs, incident reports) using formats that companies actually use.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/anthropics/skills/tree/main/skills/internal-comms`
-
-### 8. Tailored Resume Generator
-**Source:** `ComposioHQ/awesome-claude-skills`
-**Description:** Analyzes job descriptions and generates tailored resumes that highlight relevant experience, skills, and achievements to maximize interview chances.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/ComposioHQ/awesome-claude-skills/tree/master/tailored-resume-generator`
-
-### 9. Brainstorming
-**Source:** `obra/superpowers`
-**Description:** Explores user intent, requirements, and design before implementation. Forces the agent to ask the right questions rather than jumping to the first obvious solution.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/obra/superpowers/tree/main/skills/brainstorming`
-
-### 10. Subagent-Driven Development
-**Source:** `obra/superpowers`
-**Description:** Use when executing implementation plans with independent tasks in the current session. Allows the main agent to delegate sub-tasks to specialized sub-agents.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/obra/superpowers/tree/main/skills/subagent-driven-development`
-
----
-[⬅️ Back to Main README](../../README.md)
+Read the upstream source and requirements first. **Environment-dependent** entries are live skills that need a listed local runtime, account/integration, data source, or other setup.

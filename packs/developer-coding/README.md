@@ -1,60 +1,22 @@
-# 💻 Developer & Coding Pack
+# 02 — Developer Coding
 
-*For engineers who want their agent to write, test, debug, and review code like a senior developer.*
+> Implementation, testing, debugging, review, frontend architecture, and API integration workflows.
 
-This pack transforms your AI agent from a simple code generator into a rigorous software engineer. It enforces test-driven development, systematic debugging, and proper code review workflows, ensuring that the code produced is not just functional, but maintainable and production-ready.
+**10 skills · [Back to the Field Manual](../../README.md) · [Installation notes](../../docs/INSTALL.md)**
 
-## The Skills
+| Skill | What it does | Source check | Quick actions |
+|---|---|---|---|
+| **Test-Driven Development** | Test-first development: write one minimal failing test, verify the failure, implement the smallest passing change, run the full suite, then refactor with tests green. Applies to features, bug fixes, refactors, and behavior changes. | Live source checked | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fobra%2Fsuperpowers%2Ftree%2Fmain%2Fskills%2Ftest-driven-development) · [Source](https://github.com/obra/superpowers/tree/main/skills/test-driven-development) |
+| **Systematic Debugging** | Root-cause-first debugging: reproduce, inspect errors and changes, instrument boundaries, trace data, compare working patterns, test one hypothesis at a time, then minimally fix and verify. Defines stop conditions after repeated failed fixes. | Live source checked | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fobra%2Fsuperpowers%2Ftree%2Fmain%2Fskills%2Fsystematic-debugging) · [Source](https://github.com/obra/superpowers/tree/main/skills/systematic-debugging) |
+| **Receiving Code Review** | Verification-first handling of review feedback: restate each request, check it against code, evaluate correctness/impact, clarify ambiguity, push back with technical reasoning when warranted, implement incrementally, and test regressions. | Live source checked | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fobra%2Fsuperpowers%2Ftree%2Fmain%2Fskills%2Freceiving-code-review) · [Source](https://github.com/obra/superpowers/tree/main/skills/receiving-code-review) |
+| **Requesting Code Review** | Dispatches a focused code-reviewer with change description, requirements/plan, and base/head Git SHAs; triages by severity and requires Critical/Important findings to be addressed before proceeding. | Live source checked | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fobra%2Fsuperpowers%2Ftree%2Fmain%2Fskills%2Frequesting-code-review) · [Source](https://github.com/obra/superpowers/tree/main/skills/requesting-code-review) |
+| **React Best Practices** | Vercel React/Next.js performance guidance with 70 rules across waterfalls, bundle size, server performance, client fetching, re-rendering, rendering, JavaScript, and advanced patterns. | Live source checked | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fvercel-labs%2Fagent-skills%2Ftree%2Fmain%2Fskills%2Freact-best-practices) · [Source](https://github.com/vercel-labs/agent-skills/tree/main/skills/react-best-practices) |
+| **WebApp Testing** | Playwright-based native Python toolkit for local web apps: static/dynamic workflows, server lifecycle with scripts/with_server.py, rendered-DOM reconnaissance, interactions, screenshots, and browser console-log capture. | Environment-dependent | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fanthropics%2Fskills%2Ftree%2Fmain%2Fskills%2Fwebapp-testing) · [Source](https://github.com/anthropics/skills/tree/main/skills/webapp-testing) |
+| **Developer Growth Analysis** | Analyzes recent Claude Code history in ~/.claude/history.jsonl for coding patterns, evidence-based gaps/strengths, and prioritized improvement actions; can use Rube MCP for Hacker News resources and Slack DMs. | Environment-dependent | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FComposioHQ%2Fawesome-claude-skills%2Ftree%2Fmaster%2Fdeveloper-growth-analysis) · [Source](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/developer-growth-analysis) |
+| **Finishing a Development Branch** | Completes a tested branch by detecting repository/worktree state, confirming base branch, offering merge/PR/keep choices, executing the authorized choice, and cleaning up only with provenance-safe authority. Discard requires literal confirmation. | Environment-dependent | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fobra%2Fsuperpowers%2Ftree%2Fmain%2Fskills%2Ffinishing-a-development-branch) · [Source](https://github.com/obra/superpowers/tree/main/skills/finishing-a-development-branch) |
+| **Composition Patterns** | React composition patterns for maintainable component APIs: compound components, context providers, lifted state, explicit variants, and children-based composition, with a React 19-specific section. | Environment-dependent | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fvercel-labs%2Fagent-skills%2Ftree%2Fmain%2Fskills%2Fcomposition-patterns) · [Source](https://github.com/vercel-labs/agent-skills/tree/main/skills/composition-patterns) |
+| **Claude API** | Reference for Claude applications using official SDKs or requested raw HTTP: model IDs/pricing/parameters, streaming, tool use, MCP, agents, prompt caching, token counting, migration, evals, and cost optimization across major languages. | Environment-dependent | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fanthropics%2Fskills%2Ftree%2Fmain%2Fskills%2Fclaude-api) · [Source](https://github.com/anthropics/skills/tree/main/skills/claude-api) |
 
-### 1. Test-Driven Development
-**Source:** `obra/superpowers`
-**Description:** Enforces writing tests before implementation code. Use when implementing any feature or bugfix to ensure robust, verifiable code.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/obra/superpowers/tree/main/skills/test-driven-development`
+## Before installing
 
-### 2. Systematic Debugging
-**Source:** `obra/superpowers`
-**Description:** A structured approach to debugging. Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes. Prevents "guess and check" coding.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/obra/superpowers/tree/main/skills/systematic-debugging`
-
-### 3. Receiving Code Review
-**Source:** `obra/superpowers`
-**Description:** Handles code review feedback with technical rigor. Requires verification of suggestions rather than performative agreement or blind implementation.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/obra/superpowers/tree/main/skills/receiving-code-review`
-
-### 4. Requesting Code Review
-**Source:** `obra/superpowers`
-**Description:** Prepares work for review. Use when completing tasks, implementing major features, or before merging to verify work meets requirements.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/obra/superpowers/tree/main/skills/requesting-code-review`
-
-### 5. React Best Practices
-**Source:** `vercel-labs/agent-skills`
-**Description:** React and Next.js performance optimization guidelines from Vercel Engineering. Ensures optimal performance patterns for components, data fetching, and bundle optimization.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/vercel-labs/agent-skills/tree/main/skills/react-best-practices`
-
-### 6. WebApp Testing
-**Source:** `anthropics/skills`
-**Description:** Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, and capturing browser screenshots.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/anthropics/skills/tree/main/skills/webapp-testing`
-
-### 7. Developer Growth Analysis
-**Source:** `ComposioHQ/awesome-claude-skills`
-**Description:** Analyzes your chat history to identify coding patterns, development gaps, and areas for improvement, curating relevant learning resources from HackerNews.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/ComposioHQ/awesome-claude-skills/tree/master/developer-growth-analysis`
-
-### 8. Finishing a Development Branch
-**Source:** `obra/superpowers`
-**Description:** Guides completion of development work by presenting structured options for merge, PR, or cleanup once implementation is complete and tests pass.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/obra/superpowers/tree/main/skills/finishing-a-development-branch`
-
-### 9. Composition Patterns
-**Source:** `vercel-labs/agent-skills`
-**Description:** Advanced architectural patterns for building modular, composable software systems.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/vercel-labs/agent-skills/tree/main/skills/composition-patterns`
-
-### 10. Claude API
-**Source:** `anthropics/skills`
-**Description:** Expert knowledge on implementing and interacting with the Anthropic Claude API, including tool use, system prompts, and streaming responses.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/anthropics/skills/tree/main/skills/claude-api`
-
----
-[⬅️ Back to Main README](../../README.md)
+Read the upstream source and requirements first. **Environment-dependent** entries are live skills that need a listed local runtime, account/integration, data source, or other setup.

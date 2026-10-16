@@ -1,0 +1,11 @@
+# Browser dependencies and build artifacts
+browser/node_modules/
+browser/dist/
+node_modules/
+dist/
+
+# Environment and local artifacts
+.env
+.env.*
+*.tsbuildinfo
+.DS_Store

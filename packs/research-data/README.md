@@ -1,60 +1,22 @@
-# 📊 Research & Data Pack
+# 04 — Research & Data
 
-*For analysts, marketers, and researchers who need deep insights and document manipulation.*
+> Research, document, spreadsheet, PDF, media, marketing, and content-production tasks.
 
-This pack equips your agent with the tools to ingest massive amounts of data, extract the signal from the noise, and format it perfectly. It includes skills for deep content research, competitive analysis, and advanced manipulation of PDFs, Excel files, and Word documents.
+**10 skills · [Back to the Field Manual](../../README.md) · [Installation notes](../../docs/INSTALL.md)**
 
-## The Skills
+| Skill | What it does | Source check | Quick actions |
+|---|---|---|---|
+| **Content Research Writer** | Collaborative writing partner for outlining, source-based research, citation formatting, hook improvement, section feedback, voice preservation, and final review across articles, newsletters, tutorials, case studies, technical docs, and thought leadership. | Environment-dependent | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FComposioHQ%2Fawesome-claude-skills%2Ftree%2Fmaster%2Fcontent-research-writer) · [Source](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/content-research-writer) |
+| **Competitive Ads Extractor** | Extracts competitor ads from Facebook Ad Library, LinkedIn, and similar libraries; captures screenshots and analyzes messaging, pain points, use cases, value propositions, formats, CTAs, audiences, and recurring creative patterns. | Environment-dependent | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FComposioHQ%2Fawesome-claude-skills%2Ftree%2Fmaster%2Fcompetitive-ads-extractor) · [Source](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/competitive-ads-extractor) |
+| **Lead Research Assistant** | Analyzes product/service and ICP, identifies and prioritizes matching companies, and provides decision-maker targeting, value propositions, outreach strategies, conversation starters, and optional LinkedIn details. | Live source checked | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FComposioHQ%2Fawesome-claude-skills%2Ftree%2Fmaster%2Flead-research-assistant) · [Source](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/lead-research-assistant) |
+| **Twitter Algorithm Optimizer** | Analyzes and rewrites X/Twitter drafts using documented recommendation concepts—Real-graph, SimClusters, TwHIN, Tweepcred, engagement, retrieval, ranking, filtering, and delivery—and flags negative-signal risk. | Live source checked | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FComposioHQ%2Fawesome-claude-skills%2Ftree%2Fmaster%2Ftwitter-algorithm-optimizer) · [Source](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/twitter-algorithm-optimizer) |
+| **XLSX (Advanced Spreadsheet Manipulation)** | Use when spreadsheets are the main input/output: create, edit, read, analyze, clean, restructure, or convert .xlsx, .xlsm, .xltx, .csv, and .tsv; covers formulas, formatting, charts, model inspection, recalculation, validation, and cleanup. | Environment-dependent | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fanthropics%2Fskills%2Ftree%2Fmain%2Fskills%2Fxlsx) · [Source](https://github.com/anthropics/skills/tree/main/skills/xlsx) |
+| **PDF (Advanced Document Manipulation)** | Processes PDFs with Python/CLI tools: extract text, metadata, tables, and images; merge, split, rotate, watermark, create, encrypt/decrypt, fill forms, and OCR scans. Includes forms/reference documentation. | Environment-dependent | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fanthropics%2Fskills%2Ftree%2Fmain%2Fskills%2Fpdf) · [Source](https://github.com/anthropics/skills/tree/main/skills/pdf) |
+| **DOCX (Word Document Generation)** | Creates, reads, edits, and analyzes .docx and .dotx documents: docx-js generation, XML editing, find/replace, tracked changes, comments, image insertion, formatting, validation, and rendering for visual review. | Environment-dependent | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fanthropics%2Fskills%2Ftree%2Fmain%2Fskills%2Fdocx) · [Source](https://github.com/anthropics/skills/tree/main/skills/docx) |
+| **Video Downloader** | Downloads one YouTube video using bundled Python/yt-dlp tooling, supporting selected/best resolution, MP4/WebM/MKV, MP3-only output, configurable destination, and playlists disabled by default. | Environment-dependent | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FComposioHQ%2Fawesome-claude-skills%2Ftree%2Fmaster%2Fvideo-downloader) · [Source](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/video-downloader) |
+| **Domain Name Brainstormer** | Generates domain candidates from a project brief, extension alternatives (.com/.io/.dev/.ai/.app), and branding rationale, with keyword/industry/multilingual/competitor-pattern workflows and prompts to check availability. | Live source checked | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FComposioHQ%2Fawesome-claude-skills%2Ftree%2Fmaster%2Fdomain-name-brainstormer) · [Source](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/domain-name-brainstormer) |
+| **Doc Coauthoring** | Guides collaborative documentation, proposals, technical specs, RFCs, and decision documents through context gathering, section-by-section refinement/structure, and reader testing; asks targeted questions and checks completed drafts for ambiguity and reader gaps. | Live source checked | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fanthropics%2Fskills%2Ftree%2Fmain%2Fskills%2Fdoc-coauthoring) · [Source](https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring) |
 
-### 1. Content Research Writer
-**Source:** `ComposioHQ/awesome-claude-skills`
-**Description:** Assists in writing high-quality content by conducting research, adding citations, improving hooks, iterating on outlines, and providing real-time feedback on each section.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/ComposioHQ/awesome-claude-skills/tree/master/content-research-writer`
+## Before installing
 
-### 2. Competitive Ads Extractor
-**Source:** `ComposioHQ/awesome-claude-skills`
-**Description:** Extracts and analyzes competitors' ads from ad libraries (Facebook, LinkedIn, etc.) to understand what messaging, problems, and creative approaches are working.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/ComposioHQ/awesome-claude-skills/tree/master/competitive-ads-extractor`
-
-### 3. Lead Research Assistant
-**Source:** `ComposioHQ/awesome-claude-skills`
-**Description:** Identifies high-quality leads for your product or service by analyzing your business, searching for target companies, and providing actionable contact strategies.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/ComposioHQ/awesome-claude-skills/tree/master/lead-research-assistant`
-
-### 4. Twitter Algorithm Optimizer
-**Source:** `ComposioHQ/awesome-claude-skills`
-**Description:** Analyze and optimize tweets for maximum reach using Twitter's open-source algorithm insights. Rewrites and edits tweets to improve engagement based on recommendation system rankings.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/ComposioHQ/awesome-claude-skills/tree/master/twitter-algorithm-optimizer`
-
-### 5. XLSX (Advanced Spreadsheet Manipulation)
-**Source:** `anthropics/skills`
-**Description:** Advanced manipulation of Excel and CSV files. Add columns, compute formulas, format, chart, and clean messy tabular data into proper spreadsheets.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/anthropics/skills/tree/main/skills/xlsx`
-
-### 6. PDF (Advanced Document Manipulation)
-**Source:** `anthropics/skills`
-**Description:** Extract text/tables from PDFs, combine or merge multiple PDFs, split pages, rotate, add watermarks, fill forms, encrypt/decrypt, and perform OCR on scanned documents.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/anthropics/skills/tree/main/skills/pdf`
-
-### 7. DOCX (Word Document Generation)
-**Source:** `anthropics/skills`
-**Description:** Create, read, edit, and format Microsoft Word documents. Supports finding and replacing text, working with tracked changes, and converting content into polished reports.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/anthropics/skills/tree/main/skills/docx`
-
-### 8. Video Downloader
-**Source:** `ComposioHQ/awesome-claude-skills`
-**Description:** Download YouTube videos with customizable quality and format options. Supports various quality settings, multiple formats (mp4, webm, mkv), and audio-only downloads as MP3.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/ComposioHQ/awesome-claude-skills/tree/master/video-downloader`
-
-### 9. Domain Name Brainstormer
-**Source:** `ComposioHQ/awesome-claude-skills`
-**Description:** Generates creative domain name ideas for your project and checks availability across multiple TLDs (.com, .io, .dev, .ai, etc.).
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/ComposioHQ/awesome-claude-skills/tree/master/domain-name-brainstormer`
-
-### 10. Doc Coauthoring
-**Source:** `anthropics/skills`
-**Description:** Collaborative document writing that maintains voice, structure, and context across long-form writing sessions.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring`
-
----
-[⬅️ Back to Main README](../../README.md)
+Read the upstream source and requirements first. **Environment-dependent** entries are live skills that need a listed local runtime, account/integration, data source, or other setup.

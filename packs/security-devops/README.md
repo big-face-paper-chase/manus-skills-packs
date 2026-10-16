@@ -1,60 +1,22 @@
-# 🛡️ Security & DevOps Pack
+# 05 — Security & DevOps
 
-*For builders who need to deploy fast, manage git workflows, and build new skills.*
+> Deployment, workspace safety, verification, skill construction, and external-tool integrations.
 
-This pack gives your agent the infrastructure and operational capabilities to actually ship what it builds. It includes tools for deploying to Vercel, managing complex Git workflows, verifying code before committing, and even building new skills for itself.
+**10 skills · [Back to the Field Manual](../../README.md) · [Installation notes](../../docs/INSTALL.md)**
 
-## The Skills
+| Skill | What it does | Source check | Quick actions |
+|---|---|---|---|
+| **Deploy to Vercel** | Deploys projects to Vercel, preferring preview deployments while detecting state, selecting team scope, linking, deploying by Git or CLI, inspecting status, and reporting preview/claim URLs; includes supported no-auth sandbox fallbacks. | Environment-dependent | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fvercel-labs%2Fagent-skills%2Ftree%2Fmain%2Fskills%2Fdeploy-to-vercel) · [Source](https://github.com/vercel-labs/agent-skills/tree/main/skills/deploy-to-vercel) |
+| **Vercel CLI with Tokens** | Uses Vercel CLI with VERCEL_TOKEN for preview or approved production deploys, project/team linking/targeting, inspection/logs, environment/domain management, and Stripe Projects plan changes; avoids token exposure and interactive-linking pitfalls. | Environment-dependent | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fvercel-labs%2Fagent-skills%2Ftree%2Fmain%2Fskills%2Fvercel-cli-with-tokens) · [Source](https://github.com/vercel-labs/agent-skills/tree/main/skills/vercel-cli-with-tokens) |
+| **Using Git Worktrees** | Sets up isolated implementation workspaces by detecting existing worktrees/submodules, preferring native tools or safety-checked Git worktree fallback, checking ignore rules, handling sandbox permission fallback, installing dependencies, and testing a clean baseline. | Live source checked | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fobra%2Fsuperpowers%2Ftree%2Fmain%2Fskills%2Fusing-git-worktrees) · [Source](https://github.com/obra/superpowers/tree/main/skills/using-git-worktrees) |
+| **Verification Before Completion** | Evidence-first completion gate: before claiming complete/fixed/passing/ready/committed, identify a proving command/check, run it freshly and fully, inspect output/exit code/count failures, and report only evidence-supported status. | Live source checked | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fobra%2Fsuperpowers%2Ftree%2Fmain%2Fskills%2Fverification-before-completion) · [Source](https://github.com/obra/superpowers/tree/main/skills/verification-before-completion) |
+| **Skill Creator (Anthropic)** | Creates, edits, and iteratively improves Agent Skills through intent capture, SKILL.md authoring, test-case design, baseline-vs-skill evaluation, grading/benchmark aggregation, qualitative review, refinement, trigger optimization, and packaging. | Environment-dependent | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fanthropics%2Fskills%2Ftree%2Fmain%2Fskills%2Fskill-creator) · [Source](https://github.com/anthropics/skills/tree/main/skills/skill-creator) |
+| **Skill Creator (Composio)** | Procedural guide to create or update Claude skills: define triggering examples, plan reusable scripts/references/assets, write imperative SKILL.md instructions, initialize with init_skill.py, package/validate with package_skill.py, and iterate from real tasks. | Live source checked | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FComposioHQ%2Fawesome-claude-skills%2Ftree%2Fmaster%2Fskill-creator) · [Source](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/skill-creator) |
+| **MCP Builder (Anthropic)** | Four-phase guide for high-quality MCP servers: research MCP/framework docs, plan and implement external-API tools in TypeScript/Python, build/test with MCP Inspector, and create ten read-only evaluation questions. Covers schemas, outputs, pagination, errors, annotations, transports, and references. | Environment-dependent | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fanthropics%2Fskills%2Ftree%2Fmain%2Fskills%2Fmcp-builder) · [Source](https://github.com/anthropics/skills/tree/main/skills/mcp-builder) |
+| **MCP Builder (Composio)** | Workflow and quality guide for MCP servers exposing external services: agent-centric tool design, API/protocol research, Python/FastMCP and Node/TypeScript implementation, validation/errors, testing, and evaluation creation with reference guides. | Environment-dependent | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FComposioHQ%2Fawesome-claude-skills%2Ftree%2Fmaster%2Fmcp-builder) · [Source](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/mcp-builder) |
+| **Writing Skills** | Test-driven method for authoring, revising, and validating agent skills: define pressure scenarios, observe baseline failures, write docs, verify compliance, and close loopholes by refactoring. Covers structure, descriptions, token efficiency, and deployment checks. | Environment-dependent | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fobra%2Fsuperpowers%2Ftree%2Fmain%2Fskills%2Fwriting-skills) · [Source](https://github.com/obra/superpowers/tree/main/skills/writing-skills) |
+| **Using Superpowers** | Meta-skill for Superpowers discovery/execution: before responding or acting, invoke relevant/requested skills; apply process before implementation skills, follow checklists, announce selected skill, and adapt to harness. Dispatched task subagents are exempt. | Environment-dependent | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fobra%2Fsuperpowers%2Ftree%2Fmain%2Fskills%2Fusing-superpowers) · [Source](https://github.com/obra/superpowers/tree/main/skills/using-superpowers) |
 
-### 1. Deploy to Vercel
-**Source:** `vercel-labs/agent-skills`
-**Description:** Deploy applications and websites directly to Vercel. Use when you need to push code live, create a preview deployment, or set up a new project.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/vercel-labs/agent-skills/tree/main/skills/deploy-to-vercel`
+## Before installing
 
-### 2. Vercel CLI with Tokens
-**Source:** `vercel-labs/agent-skills`
-**Description:** Deploy and manage projects on Vercel using token-based authentication. Perfect for automated workflows that require setting environment variables or managing project settings.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/vercel-labs/agent-skills/tree/main/skills/vercel-cli-with-tokens`
-
-### 3. Using Git Worktrees
-**Source:** `obra/superpowers`
-**Description:** Creates isolated git worktrees with smart directory selection and safety verification. Use when starting feature work that needs isolation from the current workspace.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/obra/superpowers/tree/main/skills/using-git-worktrees`
-
-### 4. Verification Before Completion
-**Source:** `obra/superpowers`
-**Description:** Requires running verification commands and confirming output before making any success claims. Evidence before assertions always. Prevents the agent from hallucinating success.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/obra/superpowers/tree/main/skills/verification-before-completion`
-
-### 5. Skill Creator (Anthropic)
-**Source:** `anthropics/skills`
-**Description:** Create new skills, modify and improve existing skills, and measure skill performance. Use to benchmark skill performance with variance analysis or optimize a skill's description.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/anthropics/skills/tree/main/skills/skill-creator`
-
-### 6. Skill Creator (Composio)
-**Source:** `ComposioHQ/awesome-claude-skills`
-**Description:** Guide for creating effective skills that extend the agent's capabilities with specialized knowledge, workflows, or tool integrations.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/ComposioHQ/awesome-claude-skills/tree/master/skill-creator`
-
-### 7. MCP Builder (Anthropic)
-**Source:** `anthropics/skills`
-**Description:** Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools in Python or Node/TypeScript.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/anthropics/skills/tree/main/skills/mcp-builder`
-
-### 8. MCP Builder (Composio)
-**Source:** `ComposioHQ/awesome-claude-skills`
-**Description:** Additional patterns and templates for building robust MCP servers to integrate external APIs or services.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/ComposioHQ/awesome-claude-skills/tree/master/mcp-builder`
-
-### 9. Writing Skills
-**Source:** `obra/superpowers`
-**Description:** Best practices for creating new skills, editing existing skills, or verifying skills work before deployment.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/obra/superpowers/tree/main/skills/writing-skills`
-
-### 10. Using Superpowers
-**Source:** `obra/superpowers`
-**Description:** Establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions. The meta-skill for skill usage.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/obra/superpowers/tree/main/skills/using-superpowers`
-
----
-[⬅️ Back to Main README](../../README.md)
+Read the upstream source and requirements first. **Environment-dependent** entries are live skills that need a listed local runtime, account/integration, data source, or other setup.

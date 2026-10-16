@@ -1,60 +1,22 @@
-# 🎨 Design & UI Pack
+# 01 — Design & UI
 
-*For creative technologists building beautiful interfaces and generative art.*
+> Distinctive interface, visual-art, presentation, image, and mobile-UI production.
 
-This pack is designed for users who want their AI to produce visually stunning, production-grade outputs rather than generic "AI aesthetics." It covers everything from frontend component design to algorithmic art generation and brand consistency.
+**10 skills · [Back to the Field Manual](../../README.md) · [Installation notes](../../docs/INSTALL.md)**
 
-## The Skills
+| Skill | What it does | Source check | Quick actions |
+|---|---|---|---|
+| **Frontend Design** | Design and implement distinctive, subject-specific frontend interfaces: establish an intentional color, typography, and layout system; critique it against the brief; then build responsive UI without templated visual defaults. Covers clear content, restrained motion, visible focus, reduced-motion support, and visual accessibility. | Live source checked | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fanthropics%2Fskills%2Ftree%2Fmain%2Fskills%2Ffrontend-design) · [Source](https://github.com/anthropics/skills/tree/main/skills/frontend-design) |
+| **Algorithmic Art** | Creates original p5.js algorithmic art through seeded randomness and mathematical or emergent systems. Produces an algorithmic-philosophy document and a browser HTML artifact with interactive seed/parameter exploration and PNG download. | Environment-dependent | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fanthropics%2Fskills%2Ftree%2Fmain%2Fskills%2Falgorithmic-art) · [Source](https://github.com/anthropics/skills/tree/main/skills/algorithmic-art) |
+| **Theme Factory** | Applies one of ten curated color-and-font themes to slide decks, documents, reports, and HTML landing pages, or creates a custom theme from design inputs. It supports review before application and contrast/readability checking. | Live source checked | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fanthropics%2Fskills%2Ftree%2Fmain%2Fskills%2Ftheme-factory) · [Source](https://github.com/anthropics/skills/tree/main/skills/theme-factory) |
+| **Canvas Design** | Creates original, design-forward single-page PNG or PDF visual art guided by a written visual philosophy and subtle conceptual reference. Uses crafted composition, form, color, pattern, sparse typography, and systematic detail; supports requested multi-page extensions. | Live source checked | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fanthropics%2Fskills%2Ftree%2Fmain%2Fskills%2Fcanvas-design) · [Source](https://github.com/anthropics/skills/tree/main/skills/canvas-design) |
+| **Brand Guidelines** | Applies Anthropic’s official visual identity: brand colors, Poppins headings (Arial fallback), Lora body text (Georgia fallback), hierarchy-aware styling, and orange/blue/green accents. References RGB styling with python-pptx. | Live source checked | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fanthropics%2Fskills%2Ftree%2Fmain%2Fskills%2Fbrand-guidelines) · [Source](https://github.com/anthropics/skills/tree/main/skills/brand-guidelines) |
+| **Web Artifacts Builder** | Builds complex multi-component claude.ai HTML artifacts with React 18, TypeScript, Vite, Tailwind CSS, shadcn/ui, and Radix UI; provided scripts initialize a project and bundle dependencies into one self-contained HTML file. | Environment-dependent | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fanthropics%2Fskills%2Ftree%2Fmain%2Fskills%2Fweb-artifacts-builder) · [Source](https://github.com/anthropics/skills/tree/main/skills/web-artifacts-builder) |
+| **Image Enhancer** | Improves screenshots and other digital images through upscaling, sharpening, compression-artifact/noise reduction, and output optimization for web, print, social, documentation, and presentations. Supports batch processing while preserving originals. | Live source checked | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2FComposioHQ%2Fawesome-claude-skills%2Ftree%2Fmaster%2Fimage-enhancer) · [Source](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/image-enhancer) |
+| **Slack GIF Creator** | Creates polished Slack-optimized animated GIFs with Pillow-based frame drawing, Slack dimensions/frame-rate/color/duration guidance, GIFBuilder, validators, easing, and frame-composition helpers. | Environment-dependent | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fanthropics%2Fskills%2Ftree%2Fmain%2Fskills%2Fslack-gif-creator) · [Source](https://github.com/anthropics/skills/tree/main/skills/slack-gif-creator) |
+| **React Native Skills** | React Native and Expo best practices for performant mobile apps: lists/scrolling, animations, navigation, UI patterns, state/rendering, monorepos, native dependencies, fonts, and platform configuration. | Live source checked | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fvercel-labs%2Fagent-skills%2Ftree%2Fmain%2Fskills%2Freact-native-skills) · [Source](https://github.com/vercel-labs/agent-skills/tree/main/skills/react-native-skills) |
+| **PPTX (Presentation Design)** | Creates, edits, reads, validates, and visually reviews .pptx and .potx presentations: pptxgenjs generation, OOXML/template editing, slide duplication/cleanup, notes, charts, thumbnails, conversions, content QA, and visual QA. | Environment-dependent | [Install in Manus](https://manus.im/app#settings/skills/import?githubUrl=https%3A%2F%2Fgithub.com%2Fanthropics%2Fskills%2Ftree%2Fmain%2Fskills%2Fpptx) · [Source](https://github.com/anthropics/skills/tree/main/skills/pptx) |
 
-### 1. Frontend Design
-**Source:** `anthropics/skills`
-**Description:** Create distinctive, production-grade frontend interfaces with high design quality. Generates creative, polished code and UI design that avoids generic AI aesthetics.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/anthropics/skills/tree/main/skills/frontend-design`
+## Before installing
 
-### 2. Algorithmic Art
-**Source:** `anthropics/skills`
-**Description:** Creates algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Perfect for generative art, flow fields, or particle systems.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/anthropics/skills/tree/main/skills/algorithmic-art`
-
-### 3. Theme Factory
-**Source:** `anthropics/skills`
-**Description:** Toolkit for styling artifacts with a theme. Apply pre-set themes with colors/fonts to slides, docs, HTML landing pages, or generate new themes on-the-fly.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/anthropics/skills/tree/main/skills/theme-factory`
-
-### 4. Canvas Design
-**Source:** `anthropics/skills`
-**Description:** Create beautiful visual art in .png and .pdf documents using design philosophy. Use when creating posters, static designs, or visual art pieces.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/anthropics/skills/tree/main/skills/canvas-design`
-
-### 5. Brand Guidelines
-**Source:** `anthropics/skills`
-**Description:** Ensures all generated content, code, and designs adhere strictly to your company's brand guidelines, voice, and visual identity.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/anthropics/skills/tree/main/skills/brand-guidelines`
-
-### 6. Web Artifacts Builder
-**Source:** `anthropics/skills`
-**Description:** Suite of tools for creating elaborate, multi-component HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui).
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/anthropics/skills/tree/main/skills/web-artifacts-builder`
-
-### 7. Image Enhancer
-**Source:** `ComposioHQ/awesome-claude-skills`
-**Description:** Improves the quality of images, especially screenshots, by enhancing resolution, sharpness, and clarity. Perfect for preparing images for presentations.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/ComposioHQ/awesome-claude-skills/tree/master/image-enhancer`
-
-### 8. Slack GIF Creator
-**Source:** `anthropics/skills`
-**Description:** Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/anthropics/skills/tree/main/skills/slack-gif-creator`
-
-### 9. React Native Skills
-**Source:** `vercel-labs/agent-skills`
-**Description:** Best practices and patterns for building mobile interfaces and applications using React Native and Expo.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/vercel-labs/agent-skills/tree/main/skills/react-native-skills`
-
-### 10. PPTX (Presentation Design)
-**Source:** `anthropics/skills`
-**Description:** Advanced manipulation of PowerPoint files. Create slide decks, pitch decks, or presentations with precise control over templates, layouts, and speaker notes.
-**Import URL:** `https://manus.im/app#settings/skills/import?githubUrl=https://github.com/anthropics/skills/tree/main/skills/pptx`
-
----
-[⬅️ Back to Main README](../../README.md)
+Read the upstream source and requirements first. **Environment-dependent** entries are live skills that need a listed local runtime, account/integration, data source, or other setup.

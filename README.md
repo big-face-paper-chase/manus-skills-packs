@@ -1,48 +1,91 @@
-# Manus Skills Packs: The 50 Coolest Agent Skills
+# Manus Skills Field Manual
 
-Welcome to the **Manus Skills Packs** repository. This curated collection features the 50 most powerful, creative, and workflow-accelerating skills for Manus and Claude-compatible AI agents. 
+> **100 source-checked Manus and Claude-compatible skills, organized into 10 selectable packs—with direct source links and one-click Manus install URLs.**
 
-Instead of wading through hundreds of repositories, we've organized the absolute best skills into **5 modular packs**. Whether you're a developer, designer, researcher, or productivity hacker, you can grab exactly what you need to supercharge your agent.
+[Open the interactive browser](https://big-face-paper-chase.github.io/manus-skills-packs/) · [Browse machine-readable catalog](./catalog/skills.json) · [Read installation notes](./docs/INSTALL.md) · [Review original-50 audit](./docs/audits/original-50-audit.md)
 
-## 📦 The Packs
+## What this is
 
-### 1. [Developer & Coding Pack](./packs/developer-coding/README.md)
-*For engineers who want their agent to write, test, debug, and review code like a senior developer.*
-Features test-driven development, systematic debugging, code review workflows, and React best practices.
+A practical field guide for agent capabilities—not a random prompt dump. Every listing carries:
 
-### 2. [Design & UI Pack](./packs/design-ui/README.md)
-*For creative technologists building beautiful interfaces and generative art.*
-Features algorithmic art generation, frontend design systems, theme factories, and canvas design.
+- an upstream source and direct Manus import link;
+- a concise, corrected statement of what the skill does;
+- requirements and a **live-source checked** or **environment-dependent** status; and
+- a clear pack assignment so you can choose a small, coherent starting set.
 
-### 3. [Productivity & Workflow Pack](./packs/productivity-workflow/README.md)
-*For operators who want to automate the boring stuff and scale their output.*
-Features parallel agent dispatching, file organization, meeting analysis, and plan execution.
+The interactive browser adds search, pack/source filters, alphabetical or verification-date sorting, expandable detail sheets, direct installation, and a browser-local shortlist called the **Field Kit**.
 
-### 4. [Research & Data Pack](./packs/research-data/README.md)
-*For analysts, marketers, and researchers who need deep insights and document manipulation.*
-Features content research, competitive ad extraction, lead generation, and advanced PDF/Excel manipulation.
+> This repository curates **documentation and links**. It does not redistribute upstream skill implementations. Their own licenses and requirements apply.
 
-### 5. [Security & DevOps Pack](./packs/security-devops/README.md)
-*For builders who need to deploy fast, manage git workflows, and build new skills.*
-Features Vercel deployment, git worktree management, pre-completion verification, and skill creation.
+## The 10 packs
 
-## 🚀 How to Install Skills
+| # | Pack | Focus | Skills |
+|---:|---|---|---:|
+| 01 | [Design & UI](./packs/design-ui/README.md) | Distinctive interface, visual-art, presentation, image, and mobile-UI production. | 10 |
+| 02 | [Developer Coding](./packs/developer-coding/README.md) | Implementation, testing, debugging, review, frontend architecture, and API integration workflows. | 10 |
+| 03 | [Productivity & Workflow](./packs/productivity-workflow/README.md) | Planning, collaboration, communication, file organization, and agent-workflow practices. | 10 |
+| 04 | [Research & Data](./packs/research-data/README.md) | Research, document, spreadsheet, PDF, media, marketing, and content-production tasks. | 10 |
+| 05 | [Security & DevOps](./packs/security-devops/README.md) | Deployment, workspace safety, verification, skill construction, and external-tool integrations. | 10 |
+| 06 | [Agent Craft & Automation](./packs/agent-craft-automation/README.md) | Agent-skill creation, workflow mining, lab-system integration, robotic automation, and reproducible orchestration. | 10 |
+| 07 | [Visual Creative Lab](./packs/visual-creative-lab/README.md) | Scientific and creative visual assets, posters, slides, imagery, CAD, and visual analysis workflows. | 10 |
+| 08 | [Content, Audience & Growth](./packs/content-audience-growth/README.md) | Evidence-led research, citations, writing, review, grants, market intelligence, and technical documentation. | 10 |
+| 09 | [Data, Documents & Decisions](./packs/data-documents-decisions/README.md) | Exploratory analysis, statistics, charts, graph and time-series methods, public data, and structured decision support. | 10 |
+| 10 | [Experimental & Delightfully Weird](./packs/experimental-delightfully-weird/README.md) | Specialized scientific-method, simulation, genomics, quantum, time-series, and frontier experimental workflows. | 10 |
 
-Installing a skill in Manus is incredibly simple:
+## Fast install
 
-1. Find the skill you want in one of the packs below.
-2. Copy the **Import URL**.
-3. Paste it into your browser while logged into Manus.
-4. Click **Import** to add it to your agent's capabilities.
+1. Open a pack page or the interactive browser.
+2. Inspect the **Source** and **Requirements** for the skill you want.
+3. Click **Install in Manus**. It opens Manus’s GitHub skill-import route for that exact source directory.
+4. Review the skill in Manus and complete the import.
 
-Alternatively, you can use the `internet-skill-finder` skill within Manus to search for these by name!
+The catalog uses this verified route shape:
 
-## 🧠 Why These 50?
+```text
+https://manus.im/app#settings/skills/import?githubUrl=<URL-encoded GitHub skill directory>
+```
 
-We evaluated over 380+ skills across the top 7 verified GitHub repositories (including Anthropic, Vercel, and Obra). We selected these 50 based on:
-- **Utility**: Does it solve a real, painful problem?
-- **Reliability**: Is the prompt engineering robust and edge-case aware?
-- **Originality**: Does it push the boundaries of what an AI agent can do?
+A 404 route discovered during the upgrade was removed; links now use the route above. See [INSTALL.md](./docs/INSTALL.md) for manual fallback steps.
+
+## What “source-checked” means
+
+- **Live source checked** — the upstream `SKILL.md` was reachable and the summary matches the reviewed source.
+- **Environment-dependent** — the upstream source is live, but actual use requires a named runtime, credential, integration, local asset, hardware, or project context.
+
+The final verification sweep fetched all **100** referenced upstream `SKILL.md` files with HTTP 200. Run the same check yourself:
+
+```bash
+python3 scripts/verify_catalog.py
+```
+
+## Catalog structure
+
+```text
+catalog/skills.json              # canonical 100-record catalog
+packs/<pack>/README.md           # readable 10-skill pack pages
+docs/INSTALL.md                  # direct-install and manual fallback
+docs/VERIFICATION.md             # audit methodology and status definitions
+docs/audits/original-50-audit.md # original selections reviewed and corrected
+browser/                         # standalone React/Vite interactive catalog source
+scripts/verify_catalog.py        # catalog shape + upstream availability verifier
+```
+
+## Provenance
+
+The original 50 were audited individually. All 50 remained current enough to retain: **23 live-source checked** and **27 environment-dependent**. The expansion adds 50 deliberately unconventional but functional skills, including bounded simulations, experimental design, quantum circuits, visual labs, research operations, and scenario planning.
+
+The source catalog spans:
+
+- [anthropics/skills](https://github.com/anthropics/skills)
+- [obra/superpowers](https://github.com/obra/superpowers)
+- [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills)
+- [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)
+- [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)
+
+## Contributing
+
+See [CONTRIBUTING.md](./docs/CONTRIBUTING.md). In short: submit a source directory containing `SKILL.md`, document what makes it useful, and keep claims constrained to source evidence.
 
 ---
-*Curated for builders who value leverage, clarity, and velocity.*
+
+Built for people who would rather inspect the wiring than trust a glossy listicle.
